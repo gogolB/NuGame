@@ -6,4 +6,12 @@ echo 'Downloading from http://netstorage.unity3d.com/unity/5b98b70ebeb9/MacEdito
 curl -O http://netstorage.unity3d.com/unity/afd2369b692a/MacEditorInstaller/Unity-5.1.2f1.pkg
 
 echo 'Installing Unity.pkg'
-sudo installer -dumplog -package Unity-5.1.2f1.pkg -target /
+sudo installer -dumplog -package Unity-5.1.2f1.pkg -target / &
+while true; do
+  ps -p$! 2>& 1>/dev/null
+  if [ $? = 0 ]; then
+    echo "still going"; sleep 10
+  else
+    break
+  fi
+done
