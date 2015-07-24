@@ -16,3 +16,8 @@ before_install:
 install: travis_wait ./Scripts/install.sh
 script:
 - ./Scripts/build.sh
+
+notifications:
+  email:
+    - acx234@gmail.com
+    - bdavi015@ucr.edu
