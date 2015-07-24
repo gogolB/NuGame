@@ -11,7 +11,7 @@ echo "Attempting to build $project for Windows"
   -nographics \
   -silent-crashes \
   -logFile $(pwd)/unity.log \
-  -projectPath $(pwd) \
+  -projectPath $(pwd)/nugame \
   -buildWindowsPlayer "$(pwd)/Build/windows/$project.exe" \
   -quit
 
@@ -21,7 +21,7 @@ echo "Attempting to build $project for OS X"
   -nographics \
   -silent-crashes \
   -logFile $(pwd)/unity.log \
-  -projectPath $(pwd) \
+  -projectPath $(pwd)/nugame \
   -buildOSXUniversalPlayer "$(pwd)/Build/osx/$project.app" \
   -quit
 
@@ -31,7 +31,7 @@ echo "Attempting to build $project for Linux"
   -nographics \
   -silent-crashes \
   -logFile $(pwd)/unity.log \
-  -projectPath $(pwd) \
+  -projectPath $(pwd)/nugame \
   -buildLinuxUniversalPlayer "$(pwd)/Build/linux/$project.exe" \
   -quit
 
