@@ -4,8 +4,10 @@ rvm:
 - 2.1.2
 
 before_script:
- - echo Hello
- - chmod +x ./Scripts/*
+ - chmod +x ./Scripts/build.sh
+
+ before_install:
+  - chmod +x ./Scripts/install.sh
 
 install:
 - ./Scripts/install.sh
