@@ -13,6 +13,6 @@ before_script:
 before_install:
 - chmod +x ./Scripts/install.sh
 
-install: travis_wait nvm ./Scripts/install.sh
+install: travis_wait mvn ./Scripts/install.sh
 script:
 - ./Scripts/build.sh
