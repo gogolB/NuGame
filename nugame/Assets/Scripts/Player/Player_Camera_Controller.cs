@@ -5,7 +5,7 @@ using System.Collections;
 public class Player_Camera_Controller : MonoBehaviour {
 
 
-	[Range(0.0f, 90.0f)]
+	[Range(0.0f, 80.0f)]
 	[Tooltip("This is the angle formed by the forward vector of the camera and the ground plane.")]
 	public float angleOfIncidence = 60f;
 
@@ -39,7 +39,12 @@ public class Player_Camera_Controller : MonoBehaviour {
 	{
 		if (allowPlayerCameraRotation && Input.GetMouseButton(1)) {
 			groundRotation += Input.GetAxis("Mouse X") * mouseSensitivity;
-			groundRotation = Mathf.Clamp(groundRotation, 0.0f, 360.0f);
+
+			// Keep the value of the ground rotation between 0 and 360.
+			if(groundRotation > 360f)
+				groundRotation -= 360f;
+			else if(groundRotation < 0.0f)
+				groundRotation += 360f;
 		}
 
 		float height = Mathf.Sin(Mathf.Deg2Rad * angleOfIncidence) * armLength;
