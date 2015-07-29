@@ -42,7 +42,7 @@ public class Player_Controller : MonoBehaviour
 			break;
 		default:
 		case Relative.world:
-			moveDirection = cameraTrans.TransformDirection(moveDirection);
+			moveDirection = this.transform.TransformDirection(moveDirection);
 			break;
 		}
 		moveDirection *= speed;
