@@ -1,0 +1,177 @@
+<!--
+  These are all the base classes. Each base class is only allowed to add 10
+  points to the overall attribute tree.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This is the base class for all characters. By default all characters will
+    inherit this so that every character will have all the skills at level one.
+-->
+<Base_Class name="Base">
+  <Name>Basic</name>
+  <Attribs>
+    <Combat>
+      <Ranged>
+        <Attribute name="Heavy Weapons">1</Attribute>
+        <Attribute name="Rifles">1</Attribute>
+        <Attribute name="Handguns">1</Attribute>
+      </Ranged>
+      <Melee>
+        <Attribute name="One Handed">1</Attribute>
+        <Attribute name="Two Handed">1</Attribute>
+        <Attribute name="Dual Handed">1</Attribute>
+      </Melee>
+    </Combat>
+    <Science>
+      <Attribute name="Medicine">1</Attribute>
+      <Attribute name="Discovery">1</Attribute>
+    </Science>
+    <Engr>
+      <Attribute name="Crafting">1</Attribute>
+      <Attribute name="Repair">1</Attribute>
+      <Attribute name="Emplacement">1</Attribute>
+      <Attribute name="Technology">1</Attribute>
+    </Engr>
+    <Other>
+      <Attribute name="Piloting">1</Attribute>
+      <Attribute name="Stealth">1</Attribute>
+    </Other>
+  </Attribs>
+</Base_Class>
+<!-- This is how you define a main class for a character. -->
+<Class name="Leader">
+  <!-- This is the inname text that will appear for the user. -->
+  <Name>Leader</name>
+  <!-- This is the attrbutes tree. However in it only additions to the tree are
+  shown. -->
+  <Attribs>
+    <!-- This is the Combat attributes tree. -->
+    <Combat>
+      <!-- This is the ranged subtree -->
+      <Ranged>
+        <!-- Here we take the Attribute "Heavy Weapons" and add one attribute
+        level to it.-->
+        <Attribute name="Heavy Weapons">+1</Attribute>
+        <Attribute name="Rifles">+1</Attribute>
+        <Attribute name="Handguns">+1</Attribute>
+      </Ranged>
+      <Melee>
+        <Attribute name="One Handed">+1</Attribute>
+        <Attribute name="Two Handed">+1</Attribute>
+      </Melee>
+    </Combat>
+    <Science>
+      <Attribute name="Medicine">+1</Attribute>
+      <Attribute name="Discovery">+1</Attribute>
+    </Science>
+    <Engr>
+      <Attribute name="Repair">+1</Attribute>
+    </Engr>
+    <Other>
+      <Attribute name="Piloting">+1</Attribute>
+      <Attribute name="Stealth">+1</Attribute>
+    </Other>
+  </Attribs>
+  <!-- This is the info text that will show up for players when they want to see
+  more detailed information about their character choice. The lang="en" is for
+  the localization system which will attempt to select the right text for the
+  locality. -->
+  <Info lang="en">
+    You are born to lead others. Not that you feel like you are better than your
+    peers, but they believe you to be better than them. When times of crisis
+    arise people often look to you for leadership and assistance.
+  </Info>
+</Class>
+<Class name="Fighter">
+  <Name>Fighter</name>
+  <Attribs>
+    <Combat>
+      <Ranged>
+        <Attribute name="Heavy Weapons">+1</Attribute>
+        <Attribute name="Rifles">+1</Attribute>
+        <Attribute name="Handguns">+1</Attribute>
+      </Ranged>
+      <Melee>
+        <Attribute name="One Handed">+1</Attribute>
+        <Attribute name="Two Handed">+1</Attribute>
+      </Melee>
+    </Combat>
+    <Science>
+      <Attribute name="Medicine">+1</Attribute>
+    </Science>
+    <Engr>
+      <Attribute name="Repair">+1</Attribute>
+      <Attribute name="Emplacement">+2</Attribute>
+    </Engr>
+    <Other>
+      <Attribute name="Piloting">+1</Attribute>
+    </Other>
+  </Attribs>
+  <Info lang="en">
+    You're always ready for a fight. Often times when people imagine themselves
+    in a bar fight, they would like to have you as their backup. It doesn't
+    matter if you are using guns, swords, knifes, or your fists. You are a force
+    that is hard to match.
+  </Info>
+</Class>
+<Class name="Support">
+  <Name>Support</name>
+  <Attribs>
+    <Combat>
+      <Ranged>
+        <Attribute name="Handguns">+1</Attribute>
+      </Ranged>
+    </Combat>
+    <Science>
+      <Attribute name="Medicine">+2</Attribute>
+      <Attribute name="Discovery">+1</Attribute>
+    </Science>
+    <Engr>
+      <Attribute name="Crafting">+1</Attribute>
+      <Attribute name="Repair">+1</Attribute>
+      <Attribute name="Emplacement">+1</Attribute>
+      <Attribute name="Technology">+1</Attribute>
+    </Engr>
+    <Other>
+      <Attribute name="Piloting">+1</Attribute>
+      <Attribute name="Stealth">+1</Attribute>
+    </Other>
+  </Attribs>
+  <Info lang="en">
+    You're the guy who is in the back hacking and taking over turrets. Or perhap
+    your style involves moving around quietly and avoiding a fight. Maybe you'd
+    rather use your spaceship and blast them to pieces from orbit. Point is
+    you've got options.
+  </Info>
+</Class>
+<Class name="Jester">
+  <Name>Jester</name>
+  <Attribs>
+    <Combat>
+      <Ranged>
+        <Attribute name="Heavy Weapons">+1</Attribute>
+        <Attribute name="Rifles">+1</Attribute>
+      </Ranged>
+      <Melee>
+        <Attribute name="One Handed">+1</Attribute>
+        <Attribute name="Dual Handed">+1</Attribute>
+      </Melee>
+    </Combat>
+    <Science>
+      <Attribute name="Medicine">+1</Attribute>
+      <Attribute name="Discovery">+1</Attribute>
+    </Science>
+    <Engr>
+      <Attribute name="Repair">+1</Attribute>
+    </Engr>
+    <Other>
+      <Attribute name="Piloting">+1</Attribute>
+      <Attribute name="Stealth">+2</Attribute>
+    </Other>
+  </Attribs>
+  <Info lang="en">
+    No one really knows where you came from... you were just there. But everyone
+    is always glad to have you here. You seem to be able to do everything and
+    at the same time, nothing... We're not really sure what to make of you.
+  </Info>
+</Class>

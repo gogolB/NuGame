@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 // The class to store all tbe basic parts of being a character.
 // It also stores all the attributes for the character including the progress of the attribute.
-public class Player_Character : MonoBehaviour 
-{	
-	// Dictionary to store the buffs for a character. 
+public class Player_Character : MonoBehaviour
+{
+	// Dictionary to store the buffs for a character.
 	private Dictionary<string, int> buffs = new Dictionary<string, int>();
 
 	// Dictionary to store the attribs for a character.
@@ -55,6 +55,7 @@ public class Player_Character : MonoBehaviour
 		attribs.Add("Engr|Crafting", 1);
 		attribs.Add("Engr|Repair", 1);
 		attribs.Add("Engr|Emplacement", 1);
+		attribs.Add("Engr|Technology", 1);
 	}
 
 	private void initOtherTree()
@@ -79,7 +80,7 @@ public class Player_Character : MonoBehaviour
 		return -1;
 	}
 
-	// Sets an attrib at the path with the new value. If final bool is true, will 
+	// Sets an attrib at the path with the new value. If final bool is true, will
 	// add to tree if not found. Otherwise returns -1.
 	public int setAttrib(string fullAttrib, int newValue, bool AddifNotFound = false)
 	{
@@ -106,13 +107,3 @@ public class Player_Character : MonoBehaviour
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
