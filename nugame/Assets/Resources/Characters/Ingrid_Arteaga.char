@@ -4,7 +4,6 @@
   add in their own personal info and then add 10 more points the the attributes
   tree. For a grand total of 45 points.
 -->
-<?xml version="1.0" encoding="UTF-8"?>
 <Character name="Business Tycoon">
   <Name>Ingrid Arteaga</Name>
   <Main_Class>Leader</Main_Class>
