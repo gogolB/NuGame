@@ -2,23 +2,28 @@
   These are the subclasses. Each subclass is only aloud to add 10 more points to
   the overall attribute tree. This file is identfied by the prefix "SC_" for
   subclasses and "Leader" for the leader Main class.
--->>
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- This is a sub class. These sub classes are only avaiable to to the leader
-main class.-->
-<SubClass name="Business">
-  <!-- Here we set the ingame name for the player.-->
-  <Name> Business Tycoon </Name>
-  <!-- Here we modify the all the attribute levels for the subclass. It follows
-  the same structure as the MainClass..-->
-  <Attribs>
+-->
+<SubClasses>
+  <!-- This is a sub class. These sub classes are only avaiable to to the leader
+  main class.-->
+  <SubClass name="Business">
+    <!-- Here we set the ingame name for the player.-->
+    <Name> Business Tycoon </Name>
+    <!-- Here we modify the all the attribute levels for the subclass. It follows
+    the same structure as the MainClass..-->
+    <Attribs>
 
-  </Attribs>
-  <!-- Here is all the info about this particular subclass. -->
-  <Info lang="en">
-  </Info>
-</SubClass>
-<SubClass name="Military">
-</SubClass>
-<SubClass name="Political">
-</SubClass>
+    </Attribs>
+    <!-- Here is all the info about this particular subclass. -->
+    <Info lang="en">
+    </Info>
+    
+  </SubClass>
+
+  <SubClass name="Military">
+  </SubClass>
+
+  <SubClass name="Political">
+  </SubClass>
+
+</SubClasses>

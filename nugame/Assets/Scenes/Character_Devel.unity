@@ -216,6 +216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c13e06389cc27b84f8086dbcad03c61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharPrefab: {fileID: 194548, guid: c4ba831e5d7ec3e44a12f019f68b60e2, type: 2}
   charToBuild: 0
 --- !u!4 &1892867684
 Transform:

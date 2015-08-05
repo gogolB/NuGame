@@ -5,12 +5,7 @@ using System.Collections;
 // attributes as well as loading all the correct skills for the person.
 public class Player_Persona : MonoBehaviour {
 
-	public enum Class_Types
-	{
-		Support, Fighter, Leader, Jester
-	}
-
-	public Class_Types mainClassType = Class_Types.Support;
-
-
+	public string MainClass = "";
+	public string SubClass = "";
+	public string History = "";
 }
