@@ -13,59 +13,6 @@ public class Player_Character : MonoBehaviour
 	// The string represents the actual path to the attrib and the int represents the level.
 	private Dictionary<string, int> attribs = new Dictionary<string, int>();
 
-	// There is where all the attribs are initilized.
-#region Init Attribs
-
-	public void initAttribs()
-	{
-		initCombatTree();
-		initScienceTree();
-		initEngrTree();
-		initOtherTree();
-	}
-
-	private void initCombatTree()
-	{
-		initRangedCombatTree("Combat|Ranged|");
-		initMeleeCombatTree("Combat|Melee|");
-	}
-
-	private void initRangedCombatTree(string branch)
-	{
-		attribs.Add(branch + "Heavy Weapons", 1);
-		attribs.Add(branch + "Rifles", 1);
-		attribs.Add(branch + "Handgun", 1);
-	}
-
-	private void initMeleeCombatTree(string branch)
-	{
-		attribs.Add(branch + "One Handed", 1);
-		attribs.Add(branch + "Two Handed", 1);
-		attribs.Add(branch + "Dual Handed", 1);
-	}
-
-	private void initScienceTree()
-	{
-		attribs.Add("Science|Medicine", 1);
-		attribs.Add("Science|Discovery", 1);
-	}
-
-	private void initEngrTree()
-	{
-		attribs.Add("Engr|Crafting", 1);
-		attribs.Add("Engr|Repair", 1);
-		attribs.Add("Engr|Emplacement", 1);
-		attribs.Add("Engr|Technology", 1);
-	}
-
-	private void initOtherTree()
-	{
-		attribs.Add("Other|Stealth", 1);
-		attribs.Add("Other|Piloting", 1);
-	}
-
-#endregion
-
 	// Gets the value of an attrib at the path. Otherwise returns -1 if not found.
 	public int getAttrib(string fullAttrib)
 	{
@@ -102,6 +49,46 @@ public class Player_Character : MonoBehaviour
 			else
 			{
 				Debug.LogError("Could not find attrib at path: " + fullAttrib);
+				return -1;
+			}
+		}
+	}
+
+	// Trys to get a buff, returns -1 if it can not be found.
+	public int getBuff(string BuffAttrib)
+	{
+		int value;
+		
+		if(buffs.TryGetValue(BuffAttrib, out value))
+		{
+			return value;
+		}
+		
+		Debug.LogError("Could not find buff with name: " + BuffAttrib + ".");
+		return -1;
+	}
+
+	// Trys to set a buff, returns the old value.
+	public int setBuff(string buff, int newValue, bool AddifNotFound = false)
+	{
+		int value;
+		
+		if(buffs.TryGetValue(buff, out value))
+		{
+			buffs[buff] = newValue;
+			return value;
+		}
+		else
+		{
+			if(AddifNotFound)
+			{
+				Debug.LogWarning("Could not find buff with name: " + buff + ". Adding to Dictionary.");
+				buffs.Add(buff, newValue);
+				return newValue;
+			}
+			else
+			{
+				Debug.LogError("Could not find buff with name:" + buff);
 				return -1;
 			}
 		}

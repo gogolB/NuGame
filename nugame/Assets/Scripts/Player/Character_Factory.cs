@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 using System.Xml;
 
 public class Character_Factory : MonoBehaviour 
@@ -129,7 +130,23 @@ public class Character_Factory : MonoBehaviour
 		XmlTextReader reader = new XmlTextReader(Application.dataPath + "/Resources/Classes/Main_Class.atr");
 		loadBaseClass(reader, character);
 
-		skipToAttribute(reader, "Character", "name", mainClass);
+		skipToAttribute(reader, "Class", "name", mainClass);
+
+		XmlNodeType nType;
+
+		do
+		{
+			reader.Read ();
+			nType = reader.NodeType;
+			if(nType == XmlNodeType.Element)
+			{
+				if(reader.Name == "Attribs")
+				{
+					handleAttribs(reader, character);
+				}
+			}
+
+		}while(!(reader.Name == "Class" && nType == XmlNodeType.EndElement));
 
 		reader.Close();
 	}
@@ -137,7 +154,16 @@ public class Character_Factory : MonoBehaviour
 	// This goes through and loads the base class.
 	private void loadBaseClass(XmlTextReader reader, Player_Character character)
 	{
-
+		XmlNodeType nType = reader.NodeType;
+		do
+		{
+			if(reader.Name == "Attribs")
+			{
+				handleAttribs(reader, character);
+			}
+			else
+				reader.Read();
+		} while((reader.Name != "Base_Class") && (nType != XmlNodeType.EndElement));
 	}
 
 	// This goes through and loads all the subclass stuff that needs to be loaded.
@@ -162,18 +188,69 @@ public class Character_Factory : MonoBehaviour
 	private void handleAttribs(XmlTextReader reader, Player_Character character)
 	{
 		XmlNodeType nType = reader.NodeType;
+		string fullSkill = "";
+		string tmp = "";
 		do
 		{
-			
-		}while((reader.Name != "Attribs") && (nType != XmlNodeType.EndElement));
+			reader.Read ();
+			nType = reader.NodeType;
+			if(nType == XmlNodeType.Element)
+			{
+				if(reader.Name == "Attribute")
+				{
+					fullSkill += reader.GetAttribute("name");
+					tmp = reader.ReadElementContentAsString();
+					if(tmp.StartsWith("+") || tmp.StartsWith("-"))
+					{
+						// We are going to modify the value.
+						if(tmp.StartsWith("+"))
+						{
+							// Going to add it.
+							tmp = tmp.Substring(1);
+							int currentValue = character.getAttrib(fullSkill);
+							if (currentValue > 0)
+								character.setAttrib(fullSkill, currentValue + int.Parse(tmp));
+						}
+						else if (tmp.StartsWith("-"))
+						{
+							// Going to subtract it.
+							tmp = tmp.Substring(1);
+							int currentValue = character.getAttrib(fullSkill);
+							if (currentValue > 0)
+								character.setAttrib(fullSkill, currentValue - int.Parse(tmp));
+						}
+					}
+					else
+					{
+						// We are just going to set the value hard.
+						character.setAttrib(fullSkill, int.Parse(tmp), true);
+					}
+					fullSkill = fullSkill.Remove(fullSkill.LastIndexOf("|") + 1);
+				}
+				else
+				{
+					fullSkill += reader.Name + "|";
+				}
+			}
+			else if(nType == XmlNodeType.EndElement)
+			{
+				if(fullSkill.IndexOf(reader.Name) >= 0)
+					fullSkill = fullSkill.Remove(fullSkill.IndexOf(reader.Name));
+			}
+		}while(!(reader.Name == "Attribs" && nType == XmlNodeType.EndElement));
 	}
 
 	// This pushes the reader forward to an element with the given name and an attrib with the given name and value.
 	private void skipToAttribute(XmlTextReader reader, string elementName, string AttribName, string attribvalue)
 	{
-		do
+		XmlNodeType nType = reader.NodeType;
+		while(!reader.EOF)
 		{
-			reader.ReadToFollowing(elementName);
-		} while(reader.GetAttribute(AttribName) == attribvalue);
+			reader.Read();
+			nType = reader.NodeType;
+			if(nType == XmlNodeType.Element && reader.Name == elementName && reader.GetAttribute(AttribName) == attribvalue)
+				return;
+		}
+		Debug.LogError("Could not find " + elementName + ", with attrib " + AttribName + " with value "+ attribvalue);
 	}
 }

@@ -8,7 +8,7 @@
       inherit this so that every character will have all the skills at level one.
   -->
   <Base_Class name="Base">
-    <Name>Basic</name>
+    <Name>Basic</Name>
     <Attribs>
       <Combat>
         <Ranged>
@@ -41,7 +41,7 @@
   <!-- This is how you define a main class for a character. -->
   <Class name="Leader">
     <!-- This is the inname text that will appear for the user. -->
-    <Name>Leader</name>
+    <Name>Leader</Name>
     <!-- This is the attrbutes tree. However in it only additions to the tree are
     shown. -->
     <Attribs>
@@ -84,7 +84,7 @@
   </Class>
 
   <Class name="Fighter">
-    <Name>Fighter</name>
+    <Name>Fighter</Name>
     <Attribs>
       <Combat>
         <Ranged>
@@ -117,7 +117,7 @@
   </Class>
 
   <Class name="Support">
-    <Name>Support</name>
+    <Name>Support</Name>
     <Attribs>
       <Combat>
         <Ranged>
@@ -147,7 +147,7 @@
     </Info>
   </Class>
   <Class name="Jester">
-    <Name>Jester</name>
+    <Name>Jester</Name>
     <Attribs>
       <Combat>
         <Ranged>
