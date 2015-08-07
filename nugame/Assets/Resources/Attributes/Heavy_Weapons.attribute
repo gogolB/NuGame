@@ -2,11 +2,11 @@
   This is an attribute. In here all the info associated with an attribute is
   put together. Including buffs, Title, and the info text that the player sees.
 -->
-<Attribute name="HeavyWeapons">
+<Attribute name="Heavy Weapons">
   <Level name="Default">
     <Title> Heavy Weapons </Title>
     <Text>
-      This attribute determines the your aptidute with heavy weapons. This includes
+      This attribute determines the your aptitude with heavy weapons. This includes
       shoulder mounted weapons.
     </Text>
     <!-- Damage output -->
@@ -32,4 +32,4 @@
     heavy weapon and adds on 0% damage. The number is a percent!! -->
     <buff name="hvy_weps_dmg">+0</buff>
   </Level>
-</Attribute?
+</Attribute>

@@ -21,11 +21,6 @@ public class Character_Factory : MonoBehaviour
 		{
 			Debug.LogError("Error! No Character Prefab Set!");
 		}
-
-		XmlDocument doc =  new XmlDocument();
-		doc.Load(Application.dataPath + "/Resources/Characters/Ingrid_Arteaga.char");
-		XmlNode root = doc.DocumentElement;
-		Debug.Log(printChildren(root.FirstChild, ""));
 		ConstructCharacter(Application.dataPath + "/Resources/Characters/Ingrid_Arteaga.char");
 	}
 
@@ -70,13 +65,25 @@ public class Character_Factory : MonoBehaviour
 			{
 				if(textReader.Name == "Character")
 				{
-					Debug.Log("Done with Character");
+					updateBuffs();
+					#if UNITY_EDITOR
+						Debug.Log("Done with Character");
+					obj.GetComponent<Player_Character>().printOutAttribs();
+					obj.GetComponent<Player_Character>().printOutBuffs();
+					#endif
 					break;
 				}
 			}
 		}
 	}
 
+	// Adds in all the buffs for the character.
+	private void updateBuffs()
+	{
+
+	}
+
+	// Handles each of the various elements of the buff table.
 	private void handleCharFileElements(XmlTextReader reader, GameObject obj)
 	{
 		string str;
@@ -84,38 +91,52 @@ public class Character_Factory : MonoBehaviour
 		// Handle the Characters Root Node.
 		if(reader.Name == "Character")
 		{
-			Debug.Log("Character: " + reader.GetAttribute("name"));
+			#if UNITY_EDITOR
+				Debug.Log("Character: " + reader.GetAttribute("name"));
+			#endif
 		}
 		// Handle the Name Node.
 		else if( reader.Name == "Name")
 		{
 			str = reader.ReadElementContentAsString();
-			Debug.Log ("Name: " + str);
 			obj.name = str;
+
+			#if UNITY_EDITOR
+				Debug.Log ("Name: " + str);
+			#endif
 		}
 		// Handle the Main class stuff.
 		else if(reader.Name == "MainClass")
 		{
 			str = reader.ReadElementContentAsString();
-			Debug.Log ("MainClass: " + str);
 			obj.GetComponent<Player_Persona>().MainClass = str;
 			handleMainClass(str, obj.GetComponent<Player_Character>());
+
+			#if UNITY_EDITOR
+				Debug.Log ("MainClass: " + str);
+			#endif
 		}
 		// Handle the SubClass Stuff.
 		else if(reader.Name == "SubClass")
 		{
 			str = reader.ReadElementContentAsString();
-			Debug.Log ("SubClass: " + str);
 			obj.GetComponent<Player_Persona>().SubClass = str;
 			handleSubClass(obj.GetComponent<Player_Persona>().MainClass , str, obj.GetComponent<Player_Character>());
+
+			#if UNITY_EDITOR
+				Debug.Log ("SubClass: " + str);
+			#endif
 		}
 		// Handle the History Stuff.
 		else if(reader.Name == "History")
 		{
 			str = reader.ReadElementContentAsString();
-			Debug.Log ("History: " + str);
 			obj.GetComponent<Player_Persona>().History = str;
 			handleHistory(obj.GetComponent<Player_Persona>().SubClass, str, obj.GetComponent<Player_Character>());
+
+			#if UNITY_EDITOR
+				Debug.Log ("History: " + str);
+			#endif
 		}
 		// Handle the attribute tree.
 		else if (reader.Name == "Attribs")
@@ -128,12 +149,19 @@ public class Character_Factory : MonoBehaviour
 	private void handleMainClass(string mainClass, Player_Character character)
 	{
 		XmlTextReader reader = new XmlTextReader(Application.dataPath + "/Resources/Classes/Main_Class.atr");
+		#if UNITY_EDITOR
+			Debug.Log("Loading Base Class");
+		#endif
+
 		loadBaseClass(reader, character);
+
+		#if UNITY_EDITOR
+			Debug.Log("Loading Class info.");
+		#endif
 
 		skipToAttribute(reader, "Class", "name", mainClass);
 
 		XmlNodeType nType;
-
 		do
 		{
 			reader.Read ();
@@ -157,20 +185,41 @@ public class Character_Factory : MonoBehaviour
 		XmlNodeType nType = reader.NodeType;
 		do
 		{
-			if(reader.Name == "Attribs")
-			{
-				handleAttribs(reader, character);
-			}
-			else
-				reader.Read();
-		} while((reader.Name != "Base_Class") && (nType != XmlNodeType.EndElement));
+			reader.Read();
+			nType = reader.NodeType;
+			if(nType == XmlNodeType.Element)
+				if(reader.Name == "Attribs")
+				{
+					handleAttribs(reader, character);
+				}
+		} while(!(reader.Name == "Base_Class" && nType == XmlNodeType.EndElement) && !reader.EOF);
 	}
 
 	// This goes through and loads all the subclass stuff that needs to be loaded.
 	private void handleSubClass(string mainClass, string subClass, Player_Character character)
 	{
+		#if UNITY_EDITOR
+			Debug.Log("Loading subclass info.");
+		#endif
+
 		XmlTextReader reader = new XmlTextReader(Application.dataPath + "/Resources/Classes/SC_" + mainClass +".atr");
 
+		skipToAttribute(reader, "SubClass", "name", subClass);
+		
+		XmlNodeType nType;
+		do
+		{
+			reader.Read ();
+			nType = reader.NodeType;
+			if(nType == XmlNodeType.Element)
+			{
+				if(reader.Name == "Attribs")
+				{
+					handleAttribs(reader, character);
+				}
+			}
+			
+		}while(!(reader.Name == "SubClass" && nType == XmlNodeType.EndElement));
 
 		reader.Close();
 	}
@@ -178,8 +227,28 @@ public class Character_Factory : MonoBehaviour
 	// This goes through and loads all the history stuff that needs to be loaded.	
 	private void handleHistory(string subClass, string history, Player_Character character)
 	{
+		#if UNITY_EDITOR
+			Debug.Log("Loading History Info.");
+		#endif
+
 		XmlTextReader reader = new XmlTextReader(Application.dataPath + "/Resources/Classes/H_" + subClass +".atr");
 
+		skipToAttribute(reader, "History", "name", history);
+		
+		XmlNodeType nType;
+		do
+		{
+			reader.Read ();
+			nType = reader.NodeType;
+			if(nType == XmlNodeType.Element)
+			{
+				if(reader.Name == "Attribs")
+				{
+					handleAttribs(reader, character);
+				}
+			}
+			
+		}while(!(reader.Name == "History" && nType == XmlNodeType.EndElement));
 
 		reader.Close();
 	}

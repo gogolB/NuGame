@@ -42,7 +42,10 @@ public class Player_Character : MonoBehaviour
 		{
 			if(AddifNotFound)
 			{
-				Debug.LogWarning("Could not find attrib at path: " + fullAttrib + ". Adding to tree.");
+				#if UNITY_EDITOR
+					Debug.LogWarning("Could not find attrib at path: " + fullAttrib + ". Adding to tree.");
+				#endif
+
 				attribs.Add(fullAttrib, newValue);
 				return newValue;
 			}
@@ -82,7 +85,10 @@ public class Player_Character : MonoBehaviour
 		{
 			if(AddifNotFound)
 			{
-				Debug.LogWarning("Could not find buff with name: " + buff + ". Adding to Dictionary.");
+				#if UNITY_EDITOR
+					Debug.LogWarning("Could not find buff with name: " + buff + ". Adding to Dictionary.");
+				#endif
+
 				buffs.Add(buff, newValue);
 				return newValue;
 			}
@@ -93,4 +99,26 @@ public class Player_Character : MonoBehaviour
 			}
 		}
 	}
+
+#if UNITY_EDITOR
+	public void printOutAttribs()
+	{
+		string toPrint = "Attributes\n";
+		foreach(KeyValuePair<string, int> entry in attribs)
+		{
+			toPrint += entry.Key + ": " + entry.Value + "\n";
+		}
+		Debug.Log(toPrint);
+	}
+
+	public void printOutBuffs()
+	{
+		string toPrint = "BUFFS\n";
+		foreach(KeyValuePair<string, int> entry in buffs)
+		{
+			toPrint += entry.Key + ": " + entry.Value + "\n";
+		}
+		Debug.Log(toPrint);
+	}
+#endif
 }
