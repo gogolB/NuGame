@@ -1,0 +1,7 @@
+<!-- In this file are the list of all playable characters. You must follow the
+     given format because the system is not flexible when it comes to figuring
+     this out.-->
+<Characters>
+  <Character name="Ingrid Arteaga" subname="Business Tycoon">Ingrid_Arteaga.char</Character>
+  <Character name="Gogol" subname="Techie">Gogol.char</Character>
+</Characters>
