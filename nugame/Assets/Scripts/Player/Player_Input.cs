@@ -27,6 +27,8 @@ public class Player_Input : MonoBehaviour
 	{
 		// TODO Need to change this from unity's input system to our own input system.
 		moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+		this.GetComponentInChildren<Animator>().SetFloat("Horizontal", moveDirection.x);
+		this.GetComponentInChildren<Animator>().SetFloat("Vertical", moveDirection.z);
 		controller.setMoveDir (moveDirection);
 	}
 
