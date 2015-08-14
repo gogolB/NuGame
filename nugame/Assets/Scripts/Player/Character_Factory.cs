@@ -46,7 +46,7 @@ public class Character_Factory : MonoBehaviour
 		}
 	}
 
-	public void ConstructCharacter(string toCharFile)
+	public void ConstructCharacter(string toCharFile, string name = "")
 	{
 		// HACK For visuilation purposes only.
 		GameObject obj = GameObject.Instantiate(CharPrefab);

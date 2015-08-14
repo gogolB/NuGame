@@ -56,6 +56,8 @@ public class Player_Controller : MonoBehaviour
 
 		// Finally go ahead and move us.
 		controller.Move(moveDirection * Time.deltaTime);
+		this.GetComponentInChildren<Animator>().SetFloat("Horizontal", moveDirection.x);
+		this.GetComponentInChildren<Animator>().SetFloat("Vertical", moveDirection.z);
 	}
 
 	// Use to set the movement director. 
