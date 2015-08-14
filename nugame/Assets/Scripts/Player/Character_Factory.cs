@@ -51,7 +51,7 @@ public class Character_Factory : MonoBehaviour
 		// HACK For visuilation purposes only.
 		GameObject obj = GameObject.Instantiate(CharPrefab);
 		obj.transform.position = new Vector3(10, 0, 10);
-		obj.SetActive(false);
+		//obj.SetActive(false);
 
 		XmlTextReader textReader = new XmlTextReader(toCharFile);
 		while(textReader.Read())

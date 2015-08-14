@@ -1,0 +1,2071 @@
+fileFormatVersion: 2
+guid: a1b3500bd95197845b6621c5138c983b
+timeCreated: 1439573616
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Elbow_L_IK
+    100004: Elbow_R_IK
+    100006: Foot_L
+    100008: Foot_R
+    100010: Foot_R_IK
+    100012: Hand_L
+    100014: Hand_L_IK
+    100016: Hand_R
+    100018: HAND_R_IK
+    100020: Head
+    100022: Human_Basic_Skel
+    100024: //RootNode
+    100026: Human_Male_Model
+    100028: Knee_L_IK
+    100030: Knee_R_IK
+    100032: Lower_Arm_L
+    100034: Lower_Arm_R
+    100036: Lower_Leg_L
+    100038: Lower_Leg_R
+    100040: Neck
+    100042: Torso
+    100044: Upper_Arm_L
+    100046: Upper_Arm_R
+    100048: Upper_Leg_L
+    100050: Upper_Leg_R
+    100052: Waist
+    400000: Chest
+    400002: Elbow_L_IK
+    400004: Elbow_R_IK
+    400006: Foot_L
+    400008: Foot_R
+    400010: Foot_R_IK
+    400012: Hand_L
+    400014: Hand_L_IK
+    400016: Hand_R
+    400018: HAND_R_IK
+    400020: Head
+    400022: Human_Basic_Skel
+    400024: //RootNode
+    400026: Human_Male_Model
+    400028: Knee_L_IK
+    400030: Knee_R_IK
+    400032: Lower_Arm_L
+    400034: Lower_Arm_R
+    400036: Lower_Leg_L
+    400038: Lower_Leg_R
+    400040: Neck
+    400042: Torso
+    400044: Upper_Arm_L
+    400046: Upper_Arm_R
+    400048: Upper_Leg_L
+    400050: Upper_Leg_R
+    400052: Waist
+    4300000: Human_Male_Model
+    7400000: Default Take
+    7400002: CrouchToStand
+    7400004: Idle_1
+    7400006: Idle_2
+    7400008: Idle_3
+    7400010: Jab_L
+    7400012: Jab_R
+    7400014: Run
+    7400016: Sad
+    7400018: Sprint
+    7400020: StandToCrouch
+    7400022: Strafe_Left
+    7400024: Strafe_Right
+    7400026: Untitled
+    7400028: Uppercut_L
+    7400030: Uppercut_R
+    7400032: Walk
+    7400034: Walk_Backward
+    7400036: Walk_Start
+    7400038: Walk_Root
+    9500000: //RootNode
+    13700000: Human_Male_Model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 'MuscleClip ''Human_Male_Model''conversion warning: ''Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R''
+      has translation animation. It is not supported.
+
+
+      MuscleClip ''Human_Male_Model'' conversion warning: ''Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''Human_Male_Model'' conversion warning: ''Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''Human_Male_Model'' conversion warning: ''Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''Human_Male_Model'' conversion warning: ''Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R''
+      has scale animation''. It is not supported.
+
+      MuscleClip ''Human_Male_Model'' conversion warning: ''Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L''
+      has scale animation''. It is not supported.
+
+'
+    animationRetargetingWarnings: 'MuscleClip ''Human_Male_Model''conversion warning:
+      RightLowerArm average position error 0.2 mm and maximum position error 1.3 mm
+      at 40%
+
+
+      MuscleClip ''Human_Male_Model''conversion warning: RightLowerArm average position
+      error 0.3 mm and maximum position error 1.3 mm at 75%
+
+
+      MuscleClip ''Human_Male_Model''conversion warning: RightLowerArm average position
+      error 2.8 mm and maximum position error 5.4 mm at 57%
+
+
+      MuscleClip ''Human_Male_Model''conversion warning: RightLowerArm average position
+      error 1.2 mm and maximum position error 5.2 mm at 45%
+
+
+      MuscleClip ''Human_Male_Model''conversion warning: RightLowerArm average position
+      error 0.4 mm and maximum position error 1.9 mm at 95%
+
+
+      MuscleClip ''Human_Male_Model''conversion warning: RightLowerArm average position
+      error 5.3 mm and maximum position error 5.3 mm at 0%
+
+
+'
+    animationDoRetargetingWarnings: 1
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: CrouchToStand
+      takeName: CrouchToStand
+      firstFrame: -1
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_1
+      takeName: Idle_1
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_2
+      takeName: Idle_2
+      firstFrame: -1
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle_3
+      takeName: Idle_3
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jab_L
+      takeName: Jab_L
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jab_R
+      takeName: Jab_R
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: MoveSpeedZ
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 5
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 4.5
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sad
+      takeName: Sad
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Sprint
+      takeName: Sprint
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: StandToCrouch
+      takeName: StandToCrouch
+      firstFrame: -1
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strafe_Left
+      takeName: Strafe_Left
+      firstFrame: -1
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: MoveSpeedX
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: -2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: -2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Strafe_Right
+      takeName: Strafe_Right
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: MoveSpeedX
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: 2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: 2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Untitled
+      takeName: Untitled
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Uppercut_L
+      takeName: Uppercut_L
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Uppercut_R
+      takeName: Uppercut_R
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: MoveSpeedZ
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: .0112499995
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .49999997
+            value: .100624993
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: .0112499995
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk_Backward
+      takeName: Walk_Backward
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: MoveSpeedZ
+        curve:
+          serializedVersion: 2
+          curve:
+          - time: 0
+            value: -1.5
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: .499215066
+            value: -1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          - time: 1
+            value: -1.5
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk_Start
+      takeName: Walk_Start
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Human_Male_Model
+        weight: 0
+      - path: Human_Basic_Skel
+        weight: 1
+      - path: Human_Basic_Skel/Waist
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_R/Lower_Arm_R/Hand_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Torso/Chest/Upper_Arm_L/Lower_Arm_L/Hand_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_R/Lower_Leg_R/Foot_R
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L
+        weight: 1
+      - path: Human_Basic_Skel/Waist/Upper_Leg_L/Lower_Leg_L/Foot_L
+        weight: 1
+      - path: Human_Basic_Skel/HAND_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Hand_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Foot_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_L_IK
+        weight: 0
+      - path: Human_Basic_Skel/Knee_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_R_IK
+        weight: 0
+      - path: Human_Basic_Skel/Elbow_L_IK
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Waist
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Leg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Leg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Leg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Leg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Torso
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Arm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Upper_Arm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Arm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Lower_Arm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Human_Male_Model(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Human_Basic_Skel
+      position: {x: 0, y: 1.09338045, z: -4.77931792e-08}
+      rotation: {x: -.707106829, y: 0, z: -0, w: .707106709}
+      scale: {x: .100000024, y: .100000031, z: .100000031}
+      transformModified: 1
+    - name: Waist
+      position: {x: -0, y: 0, z: -.0963745117}
+      rotation: {x: .498630226, y: -.50136584, z: -.498630494, w: -.50136596}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Torso
+      position: {x: -1.28912354, y: 9.73261223e-08, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: -1.64479065, y: 1.24178243e-07, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck
+      position: {x: -3.38613129, y: 2.55645801e-07, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -.897417068, y: 6.77531204e-08, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Upper_Arm_R
+      position: {x: -2.80600953, y: -2.37772965, z: .0502880253}
+      rotation: {x: -.00114338286, y: .00107833883, z: .720828831, w: .69311142}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Lower_Arm_R
+      position: {x: -4.22131491, y: 5.12443648e-07, z: -1.04773801e-09}
+      rotation: {x: -.706960797, y: .0113885039, z: -.0163290147, w: .70697248}
+      scale: {x: .999999881, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: Hand_R
+      position: {x: -3.45012832, y: 2.52162693e-07, z: 4.39087444e-07}
+      rotation: {x: -1.49084123e-08, y: -2.86657816e-11, z: .00192288472, w: .999998152}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Upper_Arm_L
+      position: {x: -2.71370864, y: 2.21760798, z: 0}
+      rotation: {x: .00111992739, y: .00112117012, z: -.706874907, w: .707336783}
+      scale: {x: 1, y: .999999881, z: 1}
+      transformModified: 1
+    - name: Lower_Arm_L
+      position: {x: -4.18641663, y: 2.02753867e-07, z: 1.27693101e-09}
+      rotation: {x: .707102656, y: -.00270574144, z: .00224386645, w: .70710218}
+      scale: {x: .999999821, y: .999999821, z: .99999994}
+      transformModified: 1
+    - name: Hand_L
+      position: {x: -3.4640193, y: 2.55420673e-07, z: -4.7553695e-07}
+      rotation: {x: -6.83984247e-09, y: 1.30991433e-11, z: -.00191517361, w: .999998152}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Upper_Leg_R
+      position: {x: -.141762868, y: -1.85723305, z: 0}
+      rotation: {x: .00682859169, y: .707073867, z: .707073748, w: -.00682755606}
+      scale: {x: 1, y: 1, z: 1.000144}
+      transformModified: 1
+    - name: Lower_Leg_R
+      position: {x: -4.67023277, y: 3.60169679e-07, z: 6.61709992e-11}
+      rotation: {x: .706993937, y: -.0126330154, z: -.0126329549, w: .706993937}
+      scale: {x: .999999762, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: Foot_R
+      position: {x: -5.49371338, y: 5.55489407e-07, z: 3.5407941e-09}
+      rotation: {x: 6.05499224e-08, y: .57039988, z: -1.48137005e-07, w: .821367145}
+      scale: {x: .999999881, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Upper_Leg_L
+      position: {x: -.184783801, y: 1.79632807, z: 0}
+      rotation: {x: .00676399237, y: .707074404, z: .707074404, w: -.00676808087}
+      scale: {x: .999999821, y: .99999994, z: .999388397}
+      transformModified: 1
+    - name: Lower_Leg_L
+      position: {x: -4.71194839, y: 3.6601611e-07, z: 1.27845998e-10}
+      rotation: {x: .706995606, y: -.0125456378, z: -.0125455754, w: .706995308}
+      scale: {x: .999999702, y: 1, z: .999999821}
+      transformModified: 1
+    - name: Foot_L
+      position: {x: -5.51931286, y: 5.17299952e-07, z: -1.21123946e-08}
+      rotation: {x: -1.03258088e-07, y: .574878871, z: -3.40209958e-08, w: .818238556}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HAND_R_IK
+      position: {x: -10.0458832, y: -.0502880253, z: 5.47811317}
+      rotation: {x: 0, y: 0, z: .707106829, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_L_IK
+      position: {x: 9.86799717, y: 0, z: 5.55398273}
+      rotation: {x: 0, y: 0, z: .707106829, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_R_IK
+      position: {x: -1.85723305, y: 0, z: -10.1169472}
+      rotation: {x: 0, y: 0, z: .707106829, w: .707106709}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Knee_L_IK
+      position: {x: 1.78907394, y: 15.0182896, z: -5.02191639}
+      rotation: {x: .5, y: .5, z: -.49999997, w: .50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Knee_R_IK
+      position: {x: -1.8369143, y: 15.0182896, z: -5.02191639}
+      rotation: {x: .5, y: .5, z: -.49999997, w: .50000006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Elbow_R_IK
+      position: {x: -3.23611069, y: -3.01096487, z: 5.64354897}
+      rotation: {x: .706253469, y: -.0312301945, z: .03667311, w: .706318557}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: Elbow_L_IK
+      position: {x: 3.11384726, y: -2.96067667, z: 5.55124855}
+      rotation: {x: .00315633346, y: .707102299, z: -.707101166, w: -.00207772036}
+      scale: {x: .99999994, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: Human_Male_Model
+      position: {x: -.0004175902, y: -4.40000006e-14, z: -10.9915218}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

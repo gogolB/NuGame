@@ -54,16 +54,24 @@ public class Player_Controller : MonoBehaviour
 		else
 			moveDirection.y = 0;
 
-		// Finally go ahead and move us.
-		controller.Move(moveDirection * Time.deltaTime);
-		this.GetComponentInChildren<Animator>().SetFloat("Horizontal", moveDirection.x);
-		this.GetComponentInChildren<Animator>().SetFloat("Vertical", moveDirection.z);
+		// Finally go ahead and move us. We need to move with the animation curve to prevent ice skating.
+		Animator animator = GetComponentInChildren<Animator>(); 
+		if (animator)
+		{
+			Vector3 newPosition = new Vector3();
+				newPosition.x += animator.GetFloat("MoveSpeedX") * Time.deltaTime; 
+				newPosition.z += animator.GetFloat("MoveSpeedZ") * Time.deltaTime; 
+			controller.Move(meshTrans.TransformDirection(newPosition));
+		}
 	}
 
 	// Use to set the movement director. 
+	// Calculates the correct animation to play.
 	public void setMoveDir(Vector3 movDir)
 	{
 		this.moveDirection = movDir;
+		this.GetComponentInChildren<Animator>().SetFloat("Horizontal", movDir.x);
+		this.GetComponentInChildren<Animator>().SetFloat("Vertical", movDir.z);
 	}
 
 	// Use to set the position in the world the character model should look at. 
