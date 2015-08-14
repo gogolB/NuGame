@@ -26,6 +26,7 @@ public class Player_Input : MonoBehaviour
 	private void getMovementInput()
 	{
 		// TODO Need to change this from unity's input system to our own input system.
+		// Only information that needs to be sent across the network. Player animations handle motion.
 		moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 		controller.setMoveDir (moveDirection);
 	}
