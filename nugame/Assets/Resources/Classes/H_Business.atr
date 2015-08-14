@@ -1,0 +1,20 @@
+<!--
+  These are the Histories. Each Histories is only aloud to add 15 more points to
+  the overall attribute tree. Histories are prefixed by "H_" for Histories and
+  this is followed by Business for the Business SubClass.
+-->
+<!-- Here we define a single History.-->
+<Histories>
+  <History name="CFO">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Chief Financial Officer of Space Clowns Inc.</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
+    <Attribs>
+    </Attribs>
+
+    <!-- Here is the info about this particular history. -->
+    <Info lang="en">
+    </Info>
+  </History>
+</Histories>
