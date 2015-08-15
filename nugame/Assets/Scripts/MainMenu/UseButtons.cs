@@ -15,8 +15,22 @@ public class UseButtons : MonoBehaviour {
 
 	public void SetButton (string Habla) 
 	{
-		Debug.Log (Habla + ", " + inti);
-		PlayerPrefs.SetString (Habla, inti);
+		int count = 0;
+		if (PlayerPrefs.GetString ("Fire") == inti)
+			count += 1;
+		if (PlayerPrefs.GetString ("Up") == inti)
+			count += 1;
+		if (PlayerPrefs.GetString ("Down") == inti)
+			count += 1;
+		if (PlayerPrefs.GetString ("Left") == inti)
+			count += 1;
+		if (PlayerPrefs.GetString ("Right") == inti)
+			count += 1;
+		if (PlayerPrefs.GetString ("Interact") == inti)
+			count += 1;
+
+		if(count == 0)
+			PlayerPrefs.SetString (Habla, inti);
 	
 	}
 

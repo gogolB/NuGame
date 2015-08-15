@@ -15,7 +15,7 @@ public class GameControl : MonoBehaviour {
 		if (control == null) {
 			DontDestroyOnLoad (gameObject);
 			control = this;
-			if (!PlayerPrefs.HasKey ("Fire"))
+			/*if (!PlayerPrefs.HasKey ("Fire"))
 				PlayerPrefs.SetString ("Fire", "m");
 			if(!PlayerPrefs.HasKey("Up"))
 				PlayerPrefs.SetString ("Up", "w");
@@ -26,7 +26,7 @@ public class GameControl : MonoBehaviour {
 			if(!PlayerPrefs.HasKey("Left"))
 				PlayerPrefs.SetString ("Left", "a");
 			if(!PlayerPrefs.HasKey("Interact"))
-				PlayerPrefs.SetString ("Interact", "n");
+				PlayerPrefs.SetString ("Interact", "n");*/
 		} 
 
 		else
