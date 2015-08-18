@@ -5,6 +5,6 @@ public class Go_MM : MonoBehaviour {
 
 	public void MM()
 	{
-		Application.LoadLevel ("PlaceholderMenu");
+		Application.LoadLevel ("MainMenu");
 	}
 }
