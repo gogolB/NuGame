@@ -33,6 +33,8 @@ public class FadeAllAndScene : MonoBehaviour {
 
 	void Update () {
 
+		float next_scene = 0;
+
 		if (fader) {
 
 			logo1.GetComponent<Display>().open = false;
@@ -52,17 +54,17 @@ public class FadeAllAndScene : MonoBehaviour {
 
 			if(zooom)
 			{
+
+
 				cam.GetComponent<Camera>().fieldOfView -= 1;
 				if(cam.GetComponent<Camera>().fieldOfView <= 40)
-				{
 					cam.GetComponent<Camera>().fieldOfView -= 1;
-
-				}
 
 				if(cam.GetComponent<Camera>().fieldOfView <= 1)
 				{
 					fader = false;
 					zooom = false;
+					Application.LoadLevel("Play_Screen");
 				}
 			}
 

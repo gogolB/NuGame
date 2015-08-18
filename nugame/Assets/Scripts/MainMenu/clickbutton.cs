@@ -20,31 +20,29 @@ public class clickbutton : MonoBehaviour {
 		timemit += Time.deltaTime;	
 	}
 
+
+	//Brighten icon in and make sound
 	void OnMouseEnter()
 	{
 
 		ourColor = GetComponent<Renderer>().material.GetColor("_Color");
 
+		GetComponent<AudioSource> ().Play ();
+
 		if(ourColor.a >= 0.659f)
 		{
-			//Debug.Log("Hello World");
 			ourColor.a = 1.0f;
 			GetComponent<Renderer>().material.SetColor ("_Color", ourColor);
 		}
 	}
-
-	void OnMouseOver()
-	{
-			GetComponent<AudioSource> ().Play ();
-	}
-
+	
+	//Fade icon
 	void OnMouseExit()
 	{
 		ourColor = GetComponent<Renderer>().material.GetColor("_Color");
 		
 		if(ourColor.a >= 0.67f)
 		{
-			//Debug.Log("Hello World");
 			ourColor.a = 0.66f;
 			GetComponent<Renderer>().material.SetColor ("_Color", ourColor);
 		}
