@@ -100,6 +100,16 @@ public class Player_Character : MonoBehaviour
 		}
 	}
 
+	public void updateBuffs()
+	{
+		//foreach(KeyValuePair<string, int> entry in attribs)
+		//{
+			//string filename = entry.Key.Substring(entry.Key.LastIndexOf("|") + 1).Replace(" ", "_") + ".attribute";
+
+			// TODO Read through each attribute file and put the buffs in to the dictionary.
+		//}
+	}
+
 #if UNITY_EDITOR
 	public void printOutAttribs()
 	{

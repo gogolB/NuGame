@@ -65,23 +65,19 @@ public class Character_Factory : MonoBehaviour
 			{
 				if(textReader.Name == "Character")
 				{
-					updateBuffs();
 					#if UNITY_EDITOR
 						Debug.Log("Done with Character");
 					obj.GetComponent<Player_Character>().printOutAttribs();
+					obj.GetComponent<Player_Character>().updateBuffs();
 					obj.GetComponent<Player_Character>().printOutBuffs();
 					#endif
 					break;
 				}
 			}
 		}
+		textReader.Close();
 	}
 
-	// Adds in all the buffs for the character.
-	private void updateBuffs()
-	{
-
-	}
 
 	// Handles each of the various elements of the buff table.
 	private void handleCharFileElements(XmlTextReader reader, GameObject obj)
@@ -310,7 +306,7 @@ public class Character_Factory : MonoBehaviour
 	}
 
 	// This pushes the reader forward to an element with the given name and an attrib with the given name and value.
-	private void skipToAttribute(XmlTextReader reader, string elementName, string AttribName, string attribvalue)
+	public static void skipToAttribute(XmlTextReader reader, string elementName, string AttribName, string attribvalue)
 	{
 		XmlNodeType nType = reader.NodeType;
 		while(!reader.EOF)
