@@ -1,6 +1,8 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using System.Xml;
 
 // The class to store all tbe basic parts of being a character.
 // It also stores all the attributes for the character including the progress of the attribute.
@@ -102,12 +104,38 @@ public class Player_Character : MonoBehaviour
 
 	public void updateBuffs()
 	{
-		//foreach(KeyValuePair<string, int> entry in attribs)
-		//{
-			//string filename = entry.Key.Substring(entry.Key.LastIndexOf("|") + 1).Replace(" ", "_") + ".attribute";
+		foreach(KeyValuePair<string, int> entry in attribs)
+		{
+			string filename = entry.Key.Substring(entry.Key.LastIndexOf("|") + 1).Replace(" ", "_") + ".attribute";
+			filename = Application.dataPath + "/Resources/Attributes/" + filename;
+			if(File.Exists(filename))
+			{
+				XmlTextReader reader = new XmlTextReader(filename);
+				Character_Factory.skipToAttribute(reader, "Level", "name", entry.Value + "");
+				while(reader.Read())
+				{
+					XmlNodeType type = reader.NodeType;
+					if(type == XmlNodeType.Element)
+					{
+						if(reader.Name == "buff")
+						{
+							string buffName = reader.GetAttribute("name");
+							string value = reader.ReadInnerXml();
+							setBuff(buffName, int.Parse(value), true);
+						}
+					}
+				}
+				reader.Close();
 
-			// TODO Read through each attribute file and put the buffs in to the dictionary.
-		//}
+			}
+			else
+			{
+				Debug.LogError("Could not find attribute file: " + filename);
+				#if UNITY_EDITOR
+					Debug.Break();
+				#endif
+			}
+		}
 	}
 
 #if UNITY_EDITOR
@@ -129,6 +157,16 @@ public class Player_Character : MonoBehaviour
 			toPrint += entry.Key + ": " + entry.Value + "\n";
 		}
 		Debug.Log(toPrint);
+	}
+
+	public Dictionary<string, int> getAttribsTable()
+	{
+		return attribs;
+	}
+
+	public Dictionary<string, int> getBuffsTable()
+	{
+		return buffs;
 	}
 #endif
 }

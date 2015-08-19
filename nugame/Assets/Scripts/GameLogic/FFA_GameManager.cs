@@ -13,7 +13,7 @@ public class FFA_GameManager : GameManager
 		kdrTable = new Dictionary<string, KDR>();
 		EventManager.instance.addListener("onPlayerDeath", onPlayerDeath);
 
-		this.GetComponent<Event_Tester>().test();
+		//this.GetComponent<Event_Tester>().test();
 	}
 	
 	// Update is called once per frame

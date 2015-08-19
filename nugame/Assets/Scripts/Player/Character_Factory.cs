@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
+using System.IO;
 
 public class Character_Factory : MonoBehaviour 
 {
@@ -21,7 +22,7 @@ public class Character_Factory : MonoBehaviour
 		{
 			Debug.LogError("Error! No Character Prefab Set!");
 		}
-		ConstructCharacter(Application.dataPath + "/Resources/Characters/Ingrid_Arteaga.char");
+		//ConstructCharacter(Application.dataPath + "/Resources/Characters/Ingrid_Arteaga.char");
 	}
 
 	private string printChildren(XmlNode baseNode, string str = "")
@@ -46,14 +47,29 @@ public class Character_Factory : MonoBehaviour
 		}
 	}
 
-	public void ConstructCharacter(string toCharFile, string name = "")
+	public GameObject ConstructCharacter(string toCharFile, string name = "")
 	{
+		if(!File.Exists(toCharFile))
+		{
+			Debug.LogError("Could not find character file: "+ toCharFile + "!. Did you spell it correctly in Characters.char?");
+			#if UNITY_EDITOR
+				Debug.Break();
+			#endif
+			return null;
+		}
+
 		// HACK For visuilation purposes only.
 		GameObject obj = GameObject.Instantiate(CharPrefab);
 		obj.transform.position = new Vector3(10, 0, 10);
 		//obj.SetActive(false);
 
 		XmlTextReader textReader = new XmlTextReader(toCharFile);
+
+		if(name.Length > 0)
+		{
+			skipToAttribute(textReader, "Character", "name", name);
+		}
+
 		while(textReader.Read())
 		{
 			XmlNodeType nType = textReader.NodeType;
@@ -65,10 +81,10 @@ public class Character_Factory : MonoBehaviour
 			{
 				if(textReader.Name == "Character")
 				{
+					obj.GetComponent<Player_Character>().updateBuffs();
 					#if UNITY_EDITOR
 						Debug.Log("Done with Character");
 					obj.GetComponent<Player_Character>().printOutAttribs();
-					obj.GetComponent<Player_Character>().updateBuffs();
 					obj.GetComponent<Player_Character>().printOutBuffs();
 					#endif
 					break;
@@ -76,6 +92,8 @@ public class Character_Factory : MonoBehaviour
 			}
 		}
 		textReader.Close();
+
+		return obj;
 	}
 
 
@@ -139,6 +157,13 @@ public class Character_Factory : MonoBehaviour
 		{
 			handleAttribs(reader, obj.GetComponent<Player_Character>());
 		}
+		// Some kind of element that we don't know how to handle.
+		else
+		{
+			#if UNITY_EDITOR
+				Debug.LogWarning("Unknown element: " + reader.Name + ". Do not know how to handle.");
+			#endif
+		}
 	}
 
 	// This goes through and loads all the base stuff that needs to be loaded.
@@ -196,8 +221,12 @@ public class Character_Factory : MonoBehaviour
 	{
 		#if UNITY_EDITOR
 			Debug.Log("Loading subclass info.");
+			if(!File.Exists(Application.dataPath + "/Resources/Classes/SC_" + mainClass +".atr"))
+			{
+				Debug.LogError("Could not find file: " + Application.dataPath + "/Resources/Classes/SC_" + mainClass +".atr");
+				Debug.Break();
+			}
 		#endif
-
 		XmlTextReader reader = new XmlTextReader(Application.dataPath + "/Resources/Classes/SC_" + mainClass +".atr");
 
 		skipToAttribute(reader, "SubClass", "name", subClass);
@@ -225,6 +254,11 @@ public class Character_Factory : MonoBehaviour
 	{
 		#if UNITY_EDITOR
 			Debug.Log("Loading History Info.");
+			if(!File.Exists(Application.dataPath + "/Resources/Classes/H_" + subClass +".atr"))
+			{
+				Debug.LogError("Could not find file: " + Application.dataPath + "/Resources/Classes/H_" + subClass +".atr");
+				Debug.Break();
+			}
 		#endif
 
 		XmlTextReader reader = new XmlTextReader(Application.dataPath + "/Resources/Classes/H_" + subClass +".atr");
@@ -317,5 +351,8 @@ public class Character_Factory : MonoBehaviour
 				return;
 		}
 		Debug.LogError("Could not find " + elementName + ", with attrib " + AttribName + " with value "+ attribvalue);
+		#if UNITY_EDITOR
+			Debug.Break();
+		#endif
 	}
 }

@@ -15,6 +15,8 @@
     <buff name="hvy_weps_rld">+0</buff>
     <!-- Accuracy -->
     <buff name="hvy_weps_acc">+0</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">+0</buff>
   </Level>
   <!-- This defines a single level of an attribute. Anytime an attribute is missing
   any of the following info blocks, the one from the level below, or default will be
