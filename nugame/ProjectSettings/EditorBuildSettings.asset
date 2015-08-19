@@ -16,4 +16,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/networking_menu.unity
   - enabled: 1
-    path: Assets/PlaceholderMenu.unity
+    path: Assets/Scenes/MainMenu.unity

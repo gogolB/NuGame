@@ -20,7 +20,8 @@ public class Player_Input : MonoBehaviour
 	void Update () 
 	{
 		getMovementInput ();
-		getRotationInput (); 
+		if(!Input.GetMouseButton(2))
+			getRotationInput (); 
 	}
 
 	private void getMovementInput()
