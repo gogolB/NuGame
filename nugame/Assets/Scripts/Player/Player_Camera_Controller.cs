@@ -37,7 +37,7 @@ public class Player_Camera_Controller : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (allowPlayerCameraRotation && Input.GetMouseButton(1)) {
+		if (allowPlayerCameraRotation && Input.GetMouseButton(2)) {
 			groundRotation += Input.GetAxis("Mouse X") * mouseSensitivity;
 
 			// Keep the value of the ground rotation between 0 and 360.
