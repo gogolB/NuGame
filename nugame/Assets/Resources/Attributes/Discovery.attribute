@@ -1,0 +1,45 @@
+<Attribute name="Discovery">
+  <Level name="Default">
+    <Title> Discovery </Title>
+    <Text>
+      This attribute determines the your aptitude with rifles. This includes
+      mid to long range weapons.
+    </Text>
+    <!-- Success -->
+    <buff name="dis_suc">+0</buff>
+    <!-- Rarity -->
+    <buff name="dis_rar">+0</buff>
+  </Level>
+  <!-- This defines a single level of an attribute. Anytime an attribute is missing
+  any of the following info blocks, the two from the level below, or default will be
+  assumed. -->
+  <Level name="1">
+    <!-- This is the title that is put at the top of the info card. -->
+    <Title> Novice </Title>
+    <!-- This is the text that follows at the bottom of the card. -->
+    <Info lang="en">
+      You are brand new at using rifles. Probably have less experience than
+      a recruit. Very likely to blow two's self up. Should probably stay away from
+      friendlies when practicing with this weapon.
+    </Info>
+    <!-- This is an example of a buff. This buff modifies the Success of a
+    heavy weapon and adds on 0% damage. The number is a percent!! -->
+    <buff name="dis_suc">+0</buff>
+  </Level>
+
+  <Level name="2">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="dis_rar">-2</buff>
+  </Level>
+
+  <Level name="3">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="dis_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="dis_rar">-2</buff>
+  </Level>
+</Attribute>

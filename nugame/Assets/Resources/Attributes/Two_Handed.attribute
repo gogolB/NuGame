@@ -1,21 +1,17 @@
-<Attribute name="Handguns">
+<Attribute name="Two Handed">
   <Level name="Default">
-    <Title> Handguns </Title>
+    <Title> Two Handed </Title>
     <Text>
       This attribute determines the your aptitude with rifles. This includes
       mid to long range weapons.
     </Text>
     <!-- Damage output -->
-    <buff name="hgn_dmg">+0</buff>
-    <!-- Reload -->
-    <buff name="hgn_rld">+0</buff>
-    <!-- Accuracy -->
-    <buff name="hgn_acc">+0</buff>
-    <!-- FireRate -->
-    <buff name="hgn_frt">+0</buff>
+    <buff name="two_hnd_dmg">+0</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">+0</buff>
   </Level>
   <!-- This defines a single level of an attribute. Anytime an attribute is missing
-  any of the following info blocks, the one from the level below, or default will be
+  any of the following info blocks, the two from the level below, or default will be
   assumed. -->
   <Level name="1">
     <!-- This is the title that is put at the top of the info card. -->
@@ -23,35 +19,27 @@
     <!-- This is the text that follows at the bottom of the card. -->
     <Info lang="en">
       You are brand new at using rifles. Probably have less experience than
-      a recruit. Very likely to blow one's self up. Should probably stay away from
+      a recruit. Very likely to blow two's self up. Should probably stay away from
       friendlies when practicing with this weapon.
     </Info>
     <!-- This is an example of a buff. This buff modifies the damage output of a
     heavy weapon and adds on 0% damage. The number is a percent!! -->
-    <buff name="hgn_dmg">+0</buff>
+    <buff name="two_hnd_dmg">+0</buff>
   </Level>
 
   <Level name="2">
     <Title> Newb </Title>
     <!-- Damage output -->
-    <buff name="hgn_dmg">+15</buff>
-    <!-- Reload -->
-    <buff name="hgn_rld">+20</buff>
-    <!-- Accuracy -->
-    <buff name="hgn_acc">+5</buff>
-    <!-- FireRate -->
-    <buff name="hgn_frt">-2</buff>
+    <buff name="two_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
   </Level>
 
   <Level name="3">
     <Title> adequate </Title>
     <!-- Damage output -->
-    <buff name="hgn_dmg">+20</buff>
-    <!-- Reload -->
-    <buff name="hgn_rld">+25</buff>
-    <!-- Accuracy -->
-    <buff name="hgn_acc">+7</buff>
-    <!-- FireRate -->
-    <buff name="hgn_frt">-2</buff>
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
   </Level>
 </Attribute>
