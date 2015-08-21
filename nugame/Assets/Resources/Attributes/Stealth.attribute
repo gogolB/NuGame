@@ -1,16 +1,16 @@
-<Attribute name="Medicine">
+<Attribute name="Stealth">
   <Level name="Default">
-    <Title> Medicine </Title>
+    <Title> Stealth </Title>
     <Text>
       This attribute determines the your aptitude with rifles. This includes
       mid to long range weapons.
     </Text>
-    <!-- Heal output -->
-    <buff name="med_hea">+0</buff>
-    <!-- Speed(How quickly you use med kit) -->
-    <buff name="med_spd">+0</buff>
-    <!-- resistance -->
-    <buff name="med_rst">+0</buff>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+0</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+0</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+0</buff>
   </Level>
   <!-- This defines a single level of an attribute. Anytime an attribute is missing
   any of the following info blocks, the one from the level below, or default will be
@@ -26,26 +26,26 @@
     </Info>
     <!-- This is an example of a buff. This buff modifies the Heal output of a
     heavy weapon and adds on 0% Heal. The number is a percent!! -->
-    <buff name="med_hea">+0</buff>
+    <buff name="stl_dur">+0</buff>
   </Level>
 
   <Level name="2">
     <Title> Newb </Title>
-    <!-- Heal output -->
-    <buff name="med_hea">+15</buff>
-    <!-- Speed -->
-    <buff name="med_spd">-2</buff>
-    <!-- resistance -->
-    <buff name="med_rst">+0</buff>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+10</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+5</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+5</buff>
   </Level>
 
   <Level name="3">
     <Title> adequate </Title>
-    <!-- Heal output -->
-    <buff name="med_hea">+20</buff>
-    <!-- Speed -->
-    <buff name="med_spd">-2</buff>
-    <!-- resistance -->
-    <buff name="med_rst">+0</buff>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
   </Level>
 </Attribute>
