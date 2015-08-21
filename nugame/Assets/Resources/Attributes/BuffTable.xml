@@ -1,0 +1,6 @@
+<!-- The purpose of this is to match the name of the buff in the table to a name
+that looks better and is more user readable to the client. If the system can't find it
+it will autodefault to using development buff name. -->
+<BuffTable>
+  <buff name="hvy_weps_acc">Heavy Weapon Accuracy</buff>
+</BuffTable>
