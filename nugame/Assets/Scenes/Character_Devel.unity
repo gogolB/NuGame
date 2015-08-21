@@ -128,13 +128,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22476842, guid: 681dfaec271094e408a327275d68610c, type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22476842, guid: 681dfaec271094e408a327275d68610c, type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 179292, guid: 681dfaec271094e408a327275d68610c, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 112270, guid: 681dfaec271094e408a327275d68610c, type: 2}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -219,7 +223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 179002, guid: 6e6e8fd1af51aa84f9b715ba56f67b6b, type: 2}
-  initialCap: 100
+  initialCap: 5
 --- !u!1 &1069414058
 GameObject:
   m_ObjectHideFlags: 0

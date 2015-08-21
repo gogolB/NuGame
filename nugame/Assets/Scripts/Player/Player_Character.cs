@@ -109,6 +109,11 @@ public class Player_Character : MonoBehaviour
 
 	public void updateBuffs()
 	{
+		StartCoroutine(loadBuffs());
+	}
+
+	IEnumerator loadBuffs()
+	{
 		foreach(KeyValuePair<string, int> entry in attribs)
 		{
 			string filename = entry.Key.Substring(entry.Key.LastIndexOf("|") + 1).Replace(" ", "_") + ".attribute";
@@ -131,15 +136,16 @@ public class Player_Character : MonoBehaviour
 					}
 				}
 				reader.Close();
-
+				
 			}
 			else
 			{
 				Debug.LogError("Could not find attribute file: " + filename);
 				#if UNITY_EDITOR
-					Debug.Break();
+				Debug.Break();
 				#endif
 			}
+			yield return 0;
 		}
 	}
 
