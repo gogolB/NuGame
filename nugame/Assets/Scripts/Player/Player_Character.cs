@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -14,6 +15,10 @@ public class Player_Character : MonoBehaviour
 	// Dictionary to store the attribs for a character.
 	// The string represents the actual path to the attrib and the int represents the level.
 	private Dictionary<string, int> attribs = new Dictionary<string, int>();
+
+	// HACK 
+	// The health slider
+	private Slider healthSlider = null;
 
 	// Gets the value of an attrib at the path. Otherwise returns -1 if not found.
 	public int getAttrib(string fullAttrib)
@@ -136,6 +141,16 @@ public class Player_Character : MonoBehaviour
 				#endif
 			}
 		}
+	}
+
+	public void takeDamage(int amt)
+	{
+		if(healthSlider == null)
+		{
+			healthSlider = this.gameObject.GetComponentInChildren<Slider>();
+		}
+
+		healthSlider.value -= amt;
 	}
 
 #if UNITY_EDITOR
