@@ -62,6 +62,9 @@ public class Begin_HGame : MonoBehaviour {
 		if (!dontstart) {
 			Debug.Log ("START");
 			//StartServer(a.GetComponent<InputField> ().text, b.GetComponent<InputField> ().text, c.GetComponent<InputField> ().text);
+			// HACK
+			if(GameObject.FindObjectOfType<NetworkManagerCustom>() != null)
+				GameObject.FindObjectOfType<NetworkManagerCustom>().StartupHost(int.Parse(c.GetComponent<InputField> ().text));
 		}
 	}
 
