@@ -2,7 +2,7 @@
 
 # This file is responsible for checking the output log from the build.
 
-$PATTERN="Compilation failed"
+PATTERN="Compilation failed"
 
 if grep -q $PATTERN $(pwd)/unity.log; then
     exit 1
