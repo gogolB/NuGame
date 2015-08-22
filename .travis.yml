@@ -8,17 +8,19 @@ branches:
     - master
     - development
 
-before_script:
-- chmod +x ./Scripts/build.sh
-- chmod +x ./Scripts/buildChecker.sh
-
 before_install:
 - chmod +x ./Scripts/install.sh
 
 install:
 - ./Scripts/install.sh
+
+before_script:
+- chmod +x ./Scripts/build.sh
+- chmod +x ./Scripts/buildChecker.sh
+
 script:
 - ./Scripts/build.sh
+- ./Scripts/buildChecker.sh
 
 notifications:
   email:

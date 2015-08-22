@@ -35,10 +35,5 @@ echo "Attempting to build $project for Linux"
   -buildLinuxUniversalPlayer "$(pwd)/Build/linux/$project.exe" \
   -quit
 
-PATTERN="Compilation failed"
-
-if grep -q $PATTERN $(pwd)/unity.log; then
-    exit 1
-else
-    exit 0
-fi
+echo "Build log file"
+cat $(pwd)/unity.log

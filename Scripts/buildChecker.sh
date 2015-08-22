@@ -4,7 +4,7 @@
 
 PATTERN="Compilation failed"
 
-if grep -q $PATTERN $(pwd)/unity.log; then
+if grep -q $PATTERN "$(pwd)/unity.log"; then
     exit 1
 else
     exit 0
