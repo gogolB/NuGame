@@ -60,4 +60,102 @@
     <!--Speed-->
     <buff name="dul_hnd_spd">+0</buff>
   </Level>
+
+  <Level name="4">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="dul_hnds_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="dul_hnds_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="dul_hnds_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="dul_hnds_frt">-2</buff>
+    <!--Speed-->
+    <buff name="dul_hnd_spd">+0</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="dul_hnds_dmg">+20</buff>
+    <!-- Reload -->
+    <buff name="dul_hnds_rld">+25</buff>
+    <!-- Accuracy -->
+    <buff name="dul_hnds_acc">+7</buff>
+    <!-- FireRate -->
+    <buff name="dul_hnds_frt">-2</buff>
+    <!--Speed-->
+    <buff name="dul_hnd_spd">+0</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="dul_hnds_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="dul_hnds_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="dul_hnds_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="dul_hnds_frt">-2</buff>
+    <!--Speed-->
+    <buff name="dul_hnd_spd">+0</buff>
+  </Level>
+
+  <Level name="7">
+   <Title> adequate </Title>
+   <!-- Damage output -->
+   <buff name="dul_hnds_dmg">+20</buff>
+   <!-- Reload -->
+   <buff name="dul_hnds_rld">+25</buff>
+   <!-- Accuracy -->
+   <buff name="dul_hnds_acc">+7</buff>
+   <!-- FireRate -->
+   <buff name="dul_hnds_frt">-2</buff>
+   <!--Speed-->
+   <buff name="dul_hnd_spd">+0</buff>
+  </Level>
+
+  <Level name="8">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="dul_hnds_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="dul_hnds_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="dul_hnds_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="dul_hnds_frt">-2</buff>
+    <!--Speed-->
+    <buff name="dul_hnd_spd">+0</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="dul_hnds_dmg">+20</buff>
+    <!-- Reload -->
+    <buff name="dul_hnds_rld">+25</buff>
+    <!-- Accuracy -->
+    <buff name="dul_hnds_acc">+7</buff>
+    <!-- FireRate -->
+    <buff name="dul_hnds_frt">-2</buff>
+    <!--Speed-->
+    <buff name="dul_hnd_spd">+0</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="dul_hnds_dmg">+20</buff>
+    <!-- Reload -->
+    <buff name="dul_hnds_rld">+25</buff>
+    <!-- Accuracy -->
+    <buff name="dul_hnds_acc">+7</buff>
+    <!-- FireRate -->
+    <buff name="dul_hnds_frt">-2</buff>
+    <!--Speed-->
+    <buff name="dul_hnd_spd">+0</buff>
+  </Level>
 </Attribute>

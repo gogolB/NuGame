@@ -6,7 +6,7 @@
 -->
 <Characters>
   <Character name="Business Tycoon">
-    <Name>Ingrid Arteaga</Name>
+    <Name>Ingrid</Name>
     <MainClass>Leader</MainClass>
     <SubClass>Business</SubClass>
     <History>CFO</History>

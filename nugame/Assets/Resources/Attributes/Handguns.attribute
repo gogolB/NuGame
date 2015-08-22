@@ -54,4 +54,88 @@
     <!-- FireRate -->
     <buff name="hgn_frt">-2</buff>
   </Level>
+
+  <Level name="4">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hgn_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hgn_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hgn_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hgn_frt">-2</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> Possible Threat </Title>
+    <!-- Damage output -->
+    <buff name="hgn_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hgn_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hgn_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hgn_frt">-2</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hgn_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hgn_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hgn_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hgn_frt">-2</buff>
+  </Level>
+
+  <Level name="7">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hgn_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hgn_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hgn_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hgn_frt">-2</buff>
+  </Level>
+
+  <Level name="8">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hgn_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hgn_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hgn_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hgn_frt">-2</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hgn_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hgn_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hgn_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hgn_frt">-2</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> Godlike </Title>
+    <!-- Damage output -->
+    <buff name="hgn_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hgn_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hgn_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hgn_frt">-2</buff>
+  </Level>
 </Attribute>

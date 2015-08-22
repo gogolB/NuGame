@@ -58,4 +58,88 @@
     <!-- FireRate -->
     <buff name="hvy_weps_frt">-2</buff>
   </Level>
+
+  <Level name="4">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hvy_weps_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hvy_weps_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hvy_weps_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">-2</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> Possible Threat </Title>
+    <!-- Damage output -->
+    <buff name="hvy_weps_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hvy_weps_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hvy_weps_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">-2</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hvy_weps_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hvy_weps_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hvy_weps_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">-2</buff>
+  </Level>
+
+  <Level name="7">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hvy_weps_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hvy_weps_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hvy_weps_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">-2</buff>
+  </Level>
+
+  <Level name="8">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hvy_weps_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hvy_weps_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hvy_weps_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">-2</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> Decent </Title>
+    <!-- Damage output -->
+    <buff name="hvy_weps_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hvy_weps_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hvy_weps_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">-2</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> Godlike </Title>
+    <!-- Damage output -->
+    <buff name="hvy_weps_dmg">+15</buff>
+    <!-- Reload -->
+    <buff name="hvy_weps_rld">+20</buff>
+    <!-- Accuracy -->
+    <buff name="hvy_weps_acc">+5</buff>
+    <!-- FireRate -->
+    <buff name="hvy_weps_frt">-2</buff>
+  </Level>
 </Attribute>

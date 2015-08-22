@@ -48,4 +48,74 @@
     <!-- resistance -->
     <buff name="med_rst">+0</buff>
   </Level>
+
+  <Level name="4">
+    <Title> Newb </Title>
+    <!-- Heal output -->
+    <buff name="med_hea">+15</buff>
+    <!-- Speed -->
+    <buff name="med_spd">-2</buff>
+    <!-- resistance -->
+    <buff name="med_rst">+0</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> adequate </Title>
+    <!-- Heal output -->
+    <buff name="med_hea">+20</buff>
+    <!-- Speed -->
+    <buff name="med_spd">-2</buff>
+    <!-- resistance -->
+    <buff name="med_rst">+0</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Newb </Title>
+    <!-- Heal output -->
+    <buff name="med_hea">+15</buff>
+    <!-- Speed -->
+    <buff name="med_spd">-2</buff>
+    <!-- resistance -->
+    <buff name="med_rst">+0</buff>
+  </Level>
+
+  <Level name="7">
+    <Title> adequate </Title>
+    <!-- Heal output -->
+    <buff name="med_hea">+20</buff>
+    <!-- Speed -->
+    <buff name="med_spd">-2</buff>
+    <!-- resistance -->
+    <buff name="med_rst">+0</buff>
+  </Level>
+
+  <Level name="8">
+    <Title> Newb </Title>
+    <!-- Heal output -->
+    <buff name="med_hea">+15</buff>
+    <!-- Speed -->
+    <buff name="med_spd">-2</buff>
+    <!-- resistance -->
+    <buff name="med_rst">+0</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> adequate </Title>
+    <!-- Heal output -->
+    <buff name="med_hea">+20</buff>
+    <!-- Speed -->
+    <buff name="med_spd">-2</buff>
+    <!-- resistance -->
+    <buff name="med_rst">+0</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> adequate </Title>
+    <!-- Heal output -->
+    <buff name="med_hea">+20</buff>
+    <!-- Speed -->
+    <buff name="med_spd">-2</buff>
+    <!-- resistance -->
+    <buff name="med_rst">+0</buff>
+  </Level>
 </Attribute>

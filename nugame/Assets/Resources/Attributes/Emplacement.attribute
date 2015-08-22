@@ -48,4 +48,74 @@
     <!-- Damage -->
     <buff name="Emp_dmg">+0</buff>
   </Level>
+
+  <Level name="4">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="Emp_suc">+15</buff>
+    <!-- speed -->
+    <buff name="Emp_spd">+10</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+0</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="Emp_suc">+20</buff>
+    <!-- speed -->
+    <buff name="Emp_spd">+15</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+0</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="Emp_suc">+15</buff>
+    <!-- speed -->
+    <buff name="Emp_spd">+10</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+0</buff>
+  </Level>
+
+  <Level name="7">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="Emp_suc">+20</buff>
+    <!-- speed -->
+    <buff name="Emp_spd">+15</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+0</buff>
+  </Level>
+
+  <Level name="8">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="Emp_suc">+15</buff>
+    <!-- speed -->
+    <buff name="Emp_spd">+10</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+0</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="Emp_suc">+20</buff>
+    <!-- speed -->
+    <buff name="Emp_spd">+15</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+0</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="Emp_suc">+20</buff>
+    <!-- speed -->
+    <buff name="Emp_spd">+15</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+0</buff>
+  </Level>
 </Attribute>

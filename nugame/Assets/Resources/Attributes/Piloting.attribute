@@ -42,4 +42,60 @@
     <!-- Rarity -->
     <buff name="crf_rar">+15</buff>
   </Level>
+
+  <Level name="4">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+10</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+10</buff>
+  </Level>
+
+  <Level name="7">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="8">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+10</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
 </Attribute>

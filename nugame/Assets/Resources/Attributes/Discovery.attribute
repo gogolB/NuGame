@@ -42,4 +42,59 @@
     <!-- Rarity -->
     <buff name="dis_rar">-2</buff>
   </Level>
+  <Level name="4">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> Possible Threat </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="7">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="8">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> Godlike </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
 </Attribute>

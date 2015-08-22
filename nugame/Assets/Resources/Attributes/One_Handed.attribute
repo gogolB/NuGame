@@ -42,4 +42,60 @@
     <!-- Speed -->
     <buff name="one_hnd_spd">-2</buff>
   </Level>
+
+  <Level name="4">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="one_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="one_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="5">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="one_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="one_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="6">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="one_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="one_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="7">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="one_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="one_hnd_spd">-2</buff>
+
+  </Level>
+  <Level name="8">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="one_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="one_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="9">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="one_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="one_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="10">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="one_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="one_hnd_spd">-2</buff>
+  </Level>
 </Attribute>
