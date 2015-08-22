@@ -37,3 +37,10 @@ echo "Attempting to build $project for Linux"
 
 echo 'Logs from build'
 cat $(pwd)/unity.log
+PATTERN="Compilation failed"
+
+if grep -q $PATTERN $(pwd)/unity.log; then
+    exit 1
+else
+    exit 0
+fi

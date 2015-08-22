@@ -19,7 +19,6 @@ install:
 - ./Scripts/install.sh
 script:
 - ./Scripts/build.sh
-- ./Scripts/buildChecker.sh
 
 notifications:
   email:
