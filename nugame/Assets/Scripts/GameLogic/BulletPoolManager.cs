@@ -28,6 +28,13 @@ public class BulletPoolManager : MonoBehaviour
 		StartCoroutine(initBullets());
 	}
 
+	void OnLevelWasLoaded(int level)
+	{
+		bulletPool = new List<GameObject>(initialCap);
+		parent = new GameObject("BulletParent");
+		StartCoroutine(initBullets());
+	}
+
 	IEnumerator initBullets()
 	{
 		for(int i = 0; i < bulletPool.Capacity; i++)

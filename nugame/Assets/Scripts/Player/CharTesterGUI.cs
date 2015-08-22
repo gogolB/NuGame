@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml;
-
+#if UNITY_EDITOR
 public class CharTesterGUI : MonoBehaviour 
 {
 	XmlTextReader reader = null;
@@ -183,3 +183,4 @@ public class CharTesterGUI : MonoBehaviour
 	}
 
 }
+#endif
