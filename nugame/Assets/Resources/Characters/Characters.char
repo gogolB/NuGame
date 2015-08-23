@@ -2,6 +2,7 @@
      given format because the system is not flexible when it comes to figuring
      this out.-->
 <Characters>
-  <Character name="Ingrid Arteaga" subname="Business Tycoon">Ingrid_Arteaga.char</Character>
+  <Character name="Ava" subname="Thief">Ava.char</Character>
   <Character name="Gogol" subname="Techie">Gogol.char</Character>
+  <Character name="Ingrid" subname="Business Tycoon">Ingrid_Arteaga.char</Character>
 </Characters>
