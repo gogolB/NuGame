@@ -35,7 +35,7 @@ public class CharTesterGUI : MonoBehaviour
 			showCharStuff();
 		}
 	}
-
+	Vector2 scrollPos = Vector2.zero;
 	void selectCharGUI()
 	{
 		if (reader != null)
@@ -47,7 +47,6 @@ public class CharTesterGUI : MonoBehaviour
 
 		GUI.Label(new Rect(Screen.width * 0.125f, Screen.height * 0.05f, Screen.width * 0.75f, Screen.height * 0.05f), "Select Character...");
 
-		Vector2 scrollPos = Vector2.zero;
 		scrollPos = GUI.BeginScrollView(new Rect(Screen.width * 0.125f, Screen.height * 0.1f, Screen.width * 0.75f, Screen.height * 0.8f), scrollPos, new Rect(0, 0, Screen.width * 0.75f, 200));
 
 		int i = 0;
@@ -120,12 +119,16 @@ public class CharTesterGUI : MonoBehaviour
 		}
 	}
 
+
+	Vector2 statScrollPos = Vector2.zero;
 	void showStats()
 	{
+		if(obj == null)
+			return;
+
 		GUI.Box(new Rect(Screen.width * 0.125f, Screen.height * 0.1f, Screen.width * 0.75f, Screen.height * 0.8f), "Stats");
 
-		Vector2 scrollPos = Vector2.zero;
-		scrollPos = GUI.BeginScrollView(new Rect(Screen.width * 0.125f, Screen.height * 0.1f, Screen.width * 0.75f, Screen.height * 0.8f), scrollPos, new Rect(0, 0, Screen.width * 0.75f, 200));
+		statScrollPos = GUI.BeginScrollView(new Rect(Screen.width * 0.125f, Screen.height * 0.1f, Screen.width * 0.75f, Screen.height * 0.8f), statScrollPos, new Rect(0, 0, Screen.width * 0.70f, obj.GetComponent<Player_Character>().getAttribsTable().Count * 25));
 		
 		int i = 1;
 		int boxHeight = 20;
@@ -151,12 +154,17 @@ public class CharTesterGUI : MonoBehaviour
 		GUI.EndScrollView();
 	}
 
+
+	Vector2 buffScrollPos = Vector2.zero;
 	void showBuffs()
 	{
+		if(obj == null)
+			return;
+
+
 		GUI.Box(new Rect(Screen.width * 0.125f, Screen.height * 0.1f, Screen.width * 0.75f, Screen.height * 0.8f), "Buffs");
-		
-		Vector2 scrollPos = Vector2.zero;
-		scrollPos = GUI.BeginScrollView(new Rect(Screen.width * 0.125f, Screen.height * 0.1f, Screen.width * 0.75f, Screen.height * 0.8f), scrollPos, new Rect(0, 0, Screen.width * 0.75f, 200));
+
+		buffScrollPos = GUI.BeginScrollView(new Rect(Screen.width * 0.125f, Screen.height * 0.1f, Screen.width * 0.75f, Screen.height * 0.8f), buffScrollPos, new Rect(0, 0, Screen.width * 0.73f, obj.GetComponent<Player_Character>().getBuffsTable().Count * 25));
 		
 		int i = 1;
 		int boxHeight = 20;
