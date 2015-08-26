@@ -8,12 +8,6 @@ public class Character_Factory : MonoBehaviour
 {
 	public GameObject CharPrefab = null;
 
-	public enum Character {
-		Ingrid_Arteaga
-	}
-
-	public Character charToBuild = Character.Ingrid_Arteaga;
-
 	// Use this for initialization
 	// HACK this is only while i'm test driving the system.
 	void Start () 
@@ -22,7 +16,6 @@ public class Character_Factory : MonoBehaviour
 		{
 			Debug.LogError("Error! No Character Prefab Set!");
 		}
-		//ConstructCharacter(Application.dataPath + "/Resources/Characters/Ingrid_Arteaga.char");
 	}
 
 	private string printChildren(XmlNode baseNode, string str = "")
@@ -47,7 +40,13 @@ public class Character_Factory : MonoBehaviour
 		}
 	}
 
-	public GameObject ConstructCharacter(string toCharFile, string name = "")
+	/*
+	 * Send commands to contruct a character. You must tell it which file to read. If you don't specify the name of a character it will read
+	 * the first character listed in the file. 
+	 * The handler game object is for if you have a char game object already and you want to update the information in it without constructing
+	 * a new one.
+	 */
+	public GameObject ConstructCharacter(string toCharFile, string name = "", GameObject handler = null)
 	{
 		if(!File.Exists(toCharFile))
 		{
@@ -58,10 +57,13 @@ public class Character_Factory : MonoBehaviour
 			return null;
 		}
 
-		// HACK For visuilation purposes only.
-		GameObject obj = GameObject.Instantiate(CharPrefab);
-		obj.transform.position = new Vector3(10, 0, 10);
-		//obj.SetActive(false);
+		GameObject obj;
+		if(handler == null)
+			obj = GameObject.Instantiate(CharPrefab);
+		else
+			obj = handler;
+
+		obj.transform.position = new Vector3(0, 0, 0);
 
 		XmlTextReader textReader = new XmlTextReader(toCharFile);
 
