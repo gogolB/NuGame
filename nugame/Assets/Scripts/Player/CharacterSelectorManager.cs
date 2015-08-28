@@ -5,6 +5,8 @@ public class CharacterSelectorManager : MonoBehaviour {
 
 	Character_Factory factory;
 	public GameObject charModel;
+	public GameObject prevModel;
+	public GameObject nextModel;
 
 	// Use this for initialization
 	void Start () {
