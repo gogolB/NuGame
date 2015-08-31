@@ -3,6 +3,10 @@
      this out.-->
 <Characters>
   <Character name="Ava" subname="Thief">Ava.char</Character>
+  <Character name="Ben" subname="Mission Control">Ben.char</Character>
+  <Character name="George" subname="The Vet">George.char</Character>
   <Character name="Gogol" subname="Techie">Gogol.char</Character>
-  <Character name="Ingrid" subname="Business Tycoon">Ingrid_Arteaga.char</Character>
+  <Character name="Ingrid" subname="Business Tycoon">Ingrid.char</Character>
+  <Character name="James" subname="Ice Man">James.char</Character>
+  <Character name="Johnathan" subname="Floating Sword">Johnathan.char</Character>
 </Characters>

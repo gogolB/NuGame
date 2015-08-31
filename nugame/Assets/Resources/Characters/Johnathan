@@ -1,0 +1,36 @@
+<Characters>
+  <Character name="Floating Sword">
+    <Name>Ingrid Arteaga</Name>
+    <MainClass>Fighter</MainClass>
+    <SubClass>Swordman</SubClass>
+    <History>Space Ninja</History>
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">+1</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+2</Attribute>
+          <Attribute name="Two Handed">+4</Attribute>
+          <Attribute name="Dual Handed">+3</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+1</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+1</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
+    </Attribs>
+  </Character>
+</Characters>
