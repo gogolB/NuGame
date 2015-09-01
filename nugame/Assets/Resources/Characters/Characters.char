@@ -2,7 +2,7 @@
      given format because the system is not flexible when it comes to figuring
      this out.-->
 <Characters>
-  <Character name="Ava" subname="Thief">Ava.char</Character>
+  <Character name="Ava" subname="Disciple of Fagin">Ava.char</Character>
   <Character name="Ben" subname="Mission Control">Ben.char</Character>
   <Character name="George" subname="The Vet">George.char</Character>
   <Character name="Gogol" subname="Techie">Gogol.char</Character>

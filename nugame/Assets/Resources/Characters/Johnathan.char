@@ -2,7 +2,7 @@
   <Character name="Floating Sword">
     <Name>Ingrid Arteaga</Name>
     <MainClass>Fighter</MainClass>
-    <SubClass>Swordman</SubClass>
+    <SubClass>Swordsman</SubClass>
     <History>Space Ninja</History>
     <Attribs>
       <Combat>
