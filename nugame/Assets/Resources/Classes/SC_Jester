@@ -1,0 +1,24 @@
+<SubClasses>
+  <!-- This is a sub class. These sub classes are only avaiable to to the Jester
+  main class.-->
+  <SubClass name="Thief">
+    <!-- Here we set the ingame name for the player.-->
+    <Name> Son of Fagin </Name>
+    <!-- Here we modify the all the attribute levels for the subclass. It follows
+    the same structure as the MainClass..-->
+    <Attribs>
+
+    </Attribs>
+    <!-- Here is all the info about this particular subclass. -->
+    <Info lang="en">
+    </Info>
+
+  </SubClass>
+
+  <SubClass name="Military">
+  </SubClass>
+
+  <SubClass name="Political">
+  </SubClass>
+
+</SubClasses>

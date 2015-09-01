@@ -1,0 +1,14 @@
+<Histories>
+  <History name="Space Marine">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Decorated hero in the War Against Moons</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
+    <Attribs>
+    </Attribs>
+
+    <!-- Here is the info about this particular history. -->
+    <Info lang="en">
+    </Info>
+  </History>
+</Histories>
