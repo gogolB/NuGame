@@ -86,8 +86,8 @@ public class Character_Factory : MonoBehaviour
 					obj.GetComponent<Player_Character>().updateBuffs();
 					#if UNITY_EDITOR
 						Debug.Log("Done with Character");
-					obj.GetComponent<Player_Character>().printOutAttribs();
-					obj.GetComponent<Player_Character>().printOutBuffs();
+						obj.GetComponent<Player_Character>().printOutAttribs();
+						obj.GetComponent<Player_Character>().printOutBuffs();
 					#endif
 					break;
 				}
