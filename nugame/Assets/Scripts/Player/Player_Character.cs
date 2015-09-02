@@ -9,6 +9,15 @@ using System.Xml;
 // It also stores all the attributes for the character including the progress of the attribute.
 public class Player_Character : MonoBehaviour
 {
+	// Maximum attribute level.
+	public static readonly int SKILL_LIM_MAX = 15;
+
+	// Minimum attribute level
+	public static readonly int SKILL_LIM_MIN = -5;
+
+	// This is the value returned if no attrib was found.
+	public static readonly int ATTRIB_NOT_FOUND = -10;
+
 	// Dictionary to store the buffs for a character.
 	private Dictionary<string, int> buffs = new Dictionary<string, int>();
 
@@ -20,7 +29,7 @@ public class Player_Character : MonoBehaviour
 	// The health slider
 	private Slider healthSlider = null;
 
-	// Gets the value of an attrib at the path. Otherwise returns -1 if not found.
+	// Gets the value of an attrib at the path. Otherwise returns -10 if not found.
 	public int getAttrib(string fullAttrib)
 	{
 		int value;
@@ -31,7 +40,7 @@ public class Player_Character : MonoBehaviour
 		}
 
 		Debug.LogError("Could not find attrib at path: " + fullAttrib + ".");
-		return -1;
+		return ATTRIB_NOT_FOUND;
 	}
 
 	// Sets an attrib at the path with the new value. If final bool is true, will
@@ -43,6 +52,13 @@ public class Player_Character : MonoBehaviour
 		if(attribs.TryGetValue(fullAttrib, out value))
 		{
 			attribs[fullAttrib] = newValue;
+
+			// Check the limits.
+			if(attribs[fullAttrib] > SKILL_LIM_MAX)
+				attribs[fullAttrib] = SKILL_LIM_MAX;
+			else if(attribs[fullAttrib] < SKILL_LIM_MIN)
+				attribs[fullAttrib] = SKILL_LIM_MIN;
+
 			return value;
 		}
 		else
@@ -52,6 +68,12 @@ public class Player_Character : MonoBehaviour
 				#if UNITY_EDITOR
 					Debug.LogWarning("Could not find attrib at path: " + fullAttrib + ". Adding to tree.");
 				#endif
+
+				// Check the limit.
+				if(newValue > SKILL_LIM_MAX)
+					newValue = SKILL_LIM_MAX;
+				else if(newValue < SKILL_LIM_MIN)
+					newValue = SKILL_LIM_MIN;
 
 				attribs.Add(fullAttrib, newValue);
 				return newValue;

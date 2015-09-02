@@ -309,7 +309,7 @@ public class Character_Factory : MonoBehaviour
 							// Going to add it.
 							tmp = tmp.Substring(1);
 							int currentValue = character.getAttrib(fullSkill);
-							if (currentValue > 0)
+							if (currentValue < Player_Character.SKILL_LIM_MAX)
 								character.setAttrib(fullSkill, currentValue + int.Parse(tmp));
 						}
 						else if (tmp.StartsWith("-"))
@@ -317,8 +317,9 @@ public class Character_Factory : MonoBehaviour
 							// Going to subtract it.
 							tmp = tmp.Substring(1);
 							int currentValue = character.getAttrib(fullSkill);
-							if (currentValue > 0)
+							if (currentValue > Player_Character.SKILL_LIM_MIN)
 								character.setAttrib(fullSkill, currentValue - int.Parse(tmp));
+
 						}
 					}
 					else

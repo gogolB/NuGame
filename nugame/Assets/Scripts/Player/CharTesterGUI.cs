@@ -141,8 +141,8 @@ public class CharTesterGUI : MonoBehaviour
 			GUILayout.BeginHorizontal();
 			
 			GUI.Label(new Rect(Screen.width * 0.025f + 5, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Key);
-			GUI.HorizontalSlider(new Rect(Screen.width * 0.025f + 5 + Screen.width * 0.25f, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Value, 0, 10);
-			GUI.Label(new Rect(Screen.width * 0.025f + 5 + Screen.width * 0.55f, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Value + " / 10");
+			GUI.HorizontalSlider(new Rect(Screen.width * 0.025f + 5 + Screen.width * 0.25f, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Value, Player_Character.SKILL_LIM_MIN, Player_Character.SKILL_LIM_MAX);
+			GUI.Label(new Rect(Screen.width * 0.025f + 5 + Screen.width * 0.55f, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Value + " / " + Player_Character.SKILL_LIM_MAX);
 
 			GUILayout.EndHorizontal();
 			i++;
@@ -173,7 +173,7 @@ public class CharTesterGUI : MonoBehaviour
 			
 			GUI.Label(new Rect(Screen.width * 0.025f + 5, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Key);
 			GUI.HorizontalSlider(new Rect(Screen.width * 0.025f + 5 + Screen.width * 0.25f, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Value, 0, 100);
-			GUI.Label(new Rect(Screen.width * 0.025f + 5 + Screen.width * 0.55f, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Value + " / 100");
+			GUI.Label(new Rect(Screen.width * 0.025f + 5 + Screen.width * 0.55f, i * (boxHeight + spacing), Screen.width * 0.20f, boxHeight), entry.Value + "%");
 			
 			GUILayout.EndHorizontal();
 			i++;
