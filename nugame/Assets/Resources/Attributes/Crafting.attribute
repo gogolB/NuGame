@@ -16,41 +16,41 @@
   <Level name="-5">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">-20</buff>
     <!-- Rarity -->
-    <buff name="crf_rar">+10</buff>
+    <buff name="crf_rar">-15</buff>
   </Level>
 
   <Level name="-4">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="crf_suc">+20</buff>
+    <buff name="crf_suc">-15</buff>
     <!-- Rarity -->
-    <buff name="crf_rar">+15</buff>
+    <buff name="crf_rar">-10</buff>
   </Level>
 
   <Level name="-3">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">-12</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">-7</buff>
   </Level>
 
   <Level name="-2">
     <Title> Possible Threat </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">-10</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">-5</buff>
   </Level>
 
-  <Level name="1">
+  <Level name="-1">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">-5</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">-2</buff>
   </Level>
 
   <Level name="0">
@@ -78,7 +78,7 @@
   <Level name="2">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+5</buff>
     <!-- Rarity -->
     <buff name="crf_rar">+10</buff>
   </Level>
@@ -86,9 +86,9 @@
   <Level name="3">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="crf_suc">+20</buff>
+    <buff name="crf_suc">+10</buff>
     <!-- Rarity -->
-    <buff name="crf_rar">+15</buff>
+    <buff name="crf_rar">+12</buff>
   </Level>
 
   <Level name="4">
@@ -96,21 +96,21 @@
     <!-- success -->
     <buff name="crf_suc">+15</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+15</buff>
   </Level>
 
   <Level name="5">
     <Title> Possible Threat </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+20</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+18</buff>
   </Level>
 
   <Level name="6">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+25</buff>
     <!-- rarity -->
     <buff name="crf_rar">+20</buff>
   </Level>
@@ -118,73 +118,73 @@
   <Level name="7">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+30</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+23</buff>
   </Level>
 
   <Level name="8">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+35</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+25</buff>
   </Level>
 
   <Level name="9">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+40</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+28</buff>
   </Level>
 
   <Level name="10">
     <Title> Godlike </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+45</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+30</buff>
   </Level>
 
   <Level name="11">
     <Title> Possible Threat </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+50</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+33</buff>
   </Level>
 
   <Level name="12">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+55</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+35</buff>
   </Level>
 
   <Level name="13">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+60</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+38</buff>
   </Level>
 
   <Level name="14">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+65</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+40</buff>
   </Level>
 
   <Level name="15">
     <Title> Decent </Title>
     <!-- success -->
-    <buff name="crf_suc">+15</buff>
+    <buff name="crf_suc">+70</buff>
     <!-- rarity -->
-    <buff name="crf_rar">+20</buff>
+    <buff name="crf_rar">+45</buff>
   </Level>
 
 </Attribute>
