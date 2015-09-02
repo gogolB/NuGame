@@ -1,16 +1,9 @@
-<!--
-  These are the subclasses. Each subclass is only aloud to add 10 more points to
-  the overall attribute tree. This file is identfied by the prefix "SC_" for
-  subclasses and "Leader" for the leader Main class.
--->
-<SubClasses>
-  <!-- This is a sub class. These sub classes are only avaiable to to the leader
-  main class.-->
-  <SubClass name="Business">
-    <!-- Here we set the ingame name for the player.-->
-    <Name> Business Tycoon </Name>
-    <!-- Here we modify the all the attribute levels for the subclass. It follows
-    the same structure as the MainClass..-->
+<Histories>
+  <History name="Tech Mogul">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Tech God</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
     <Attribs>
       <Combat>
         <Ranged>
@@ -39,14 +32,56 @@
         <Attribute name="Stealth">+1</Attribute>
       </Other>
     </Attribs>
-    <!-- Here is all the info about this particular subclass. -->
+
+    <!-- Here is the info about this particular history. -->
     <Info lang="en">
     </Info>
+  </History>
 
-  </SubClass>
+  <History name="Hacker">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Mission Control</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">-2</Attribute>
+          <Attribute name="Rifles">-1</Attribute>
+          <Attribute name="Handguns">+3</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+2</Attribute>
+          <Attribute name="Two Handed">+2</Attribute>
+          <Attribute name="Dual Handed">+4</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+1</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+5</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
+    </Attribs>
 
-  <SubClass name="Military">
-    <Name> The General </Name>
+    <!-- Here is the info about this particular history. -->
+    <Info lang="en">
+    </Info>
+  </History>
+
+  <History name="Contractor">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Techie</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
     <Attribs>
       <Combat>
         <Ranged>
@@ -75,38 +110,10 @@
         <Attribute name="Stealth">+1</Attribute>
       </Other>
     </Attribs>
-  </SubClass>
 
-  <SubClass name="Political">
-    <Name> Senator </Name>
-    <Attribs>
-      <Combat>
-        <Ranged>
-          <Attribute name="Heavy Weapons">+1</Attribute>
-          <Attribute name="Rifles">+1</Attribute>
-          <Attribute name="Handguns">+1</Attribute>
-        </Ranged>
-        <Melee>
-          <Attribute name="One Handed">+1</Attribute>
-          <Attribute name="Two Handed">+1</Attribute>
-          <Attribute name="Dual Handed">+1</Attribute>
-        </Melee>
-      </Combat>
-      <Science>
-        <Attribute name="Medicine">+1</Attribute>
-        <Attribute name="Discovery">+1</Attribute>
-      </Science>
-      <Engr>
-        <Attribute name="Crafting">+1</Attribute>
-        <Attribute name="Repair">+1</Attribute>
-        <Attribute name="Emplacement">+1</Attribute>
-        <Attribute name="Technology">+1</Attribute>
-      </Engr>
-      <Other>
-        <Attribute name="Piloting">+1</Attribute>
-        <Attribute name="Stealth">+1</Attribute>
-      </Other>
-    </Attribs>
-  </SubClass>
+    <!-- Here is the info about this particular history. -->
+    <Info lang="en">
+    </Info>
+  </History>
 
-</SubClasses>
+</Histories>

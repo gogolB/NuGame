@@ -12,7 +12,32 @@
     <!-- Here we modify the all the attribute levels for the subclass. It follows
     the same structure as the MainClass..-->
     <Attribs>
-
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">+1</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+1</Attribute>
+          <Attribute name="Two Handed">+1</Attribute>
+          <Attribute name="Dual Handed">+1</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+1</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+1</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
     </Attribs>
     <!-- Here is all the info about this particular subclass. -->
     <Info lang="en">
@@ -20,17 +45,71 @@
 
   </SubClass>
 
-  <SubClass name="Swordsman">
-  <Name>Floating Sword</Name>
-  <Attribs>
-
-  </Attribs>
-  <Info lang="en">
-  </Info>
+ <SubClass name="Swordsman">
+    <Name> Floating Sword </Name>
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">+1</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+1</Attribute>
+          <Attribute name="Two Handed">+1</Attribute>
+          <Attribute name="Dual Handed">+1</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+1</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+1</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
+    </Attribs>
+    <Info lang="en">
+    </Info>
 
   </SubClass>
 
-  <SubClass name="Political">
+  <SubClass name="Tim">
+    <Name> Tim </Name>
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">+1</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+1</Attribute>
+          <Attribute name="Two Handed">+1</Attribute>
+          <Attribute name="Dual Handed">+1</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+1</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+1</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
+    </Attribs>
   </SubClass>
 
 </SubClasses>

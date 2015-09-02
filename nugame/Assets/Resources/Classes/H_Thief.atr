@@ -1,7 +1,7 @@
 <Histories>
   <History name="Space Urchin">
     <!-- Here is the ingame name that will be seen by the player. -->
-    <Name> Grew up on the bad side of the Space Tracks</Name>
+    <Name> Space Urchin</Name>
     <!-- Here we will modify the levels in the attribute tree the same way as the
     Main class did. -->
     <Attribs>
@@ -10,5 +10,17 @@
     <!-- Here is the info about this particular history. -->
     <Info lang="en">
     </Info>
+  </History>
+
+  <History name="Dread Pirate">
+    <Name> Dread Pirate</Name>
+    <Attribs>
+    </Attribs>
+  </History>
+
+  <History name="Smuggler">
+    <Name>Steve</Name>
+    <Attribs>
+    </Attribs>
   </History>
 </Histories>

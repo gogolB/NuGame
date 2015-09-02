@@ -1,6 +1,7 @@
 <Characters>
   <Character name="Mission Control">
     <Name>Ben</Name>
+    <Gender>M</Gender>
     <MainClass>Support</MainClass>
     <SubClass>Tech</SubClass>
     <History>Tech Mogul</History>

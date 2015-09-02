@@ -1,15 +1,16 @@
 <Characters>
-  <Character name="The Vet">
-    <Name>George</Name>
-    <MainClass>Fighter</MainClass>
-    <SubClass>Soldier</SubClass>
-    <History>Space Marine</History>
+  <Character name="Techie">
+    <Name>Gogol</Name>
+    <Gender>M</Gender>
+    <MainClass>Support</MainClass>
+    <SubClass>Tech</SubClass>
+    <History>Contractor</History>
     <Attribs>
       <Combat>
         <Ranged>
-          <Attribute name="Heavy Weapons">+3</Attribute>
-          <Attribute name="Rifles">+4</Attribute>
-          <Attribute name="Handguns">+2</Attribute>
+          <Attribute name="Heavy Weapons">-2</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
         </Ranged>
         <Melee>
           <Attribute name="One Handed">+1</Attribute>
@@ -22,14 +23,14 @@
         <Attribute name="Discovery">+1</Attribute>
       </Science>
       <Engr>
-        <Attribute name="Crafting">-2</Attribute>
+        <Attribute name="Crafting">+3</Attribute>
         <Attribute name="Repair">+1</Attribute>
-        <Attribute name="Emplacement">-1</Attribute>
-        <Attribute name="Technology">-1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+4</Attribute>
       </Engr>
       <Other>
         <Attribute name="Piloting">+1</Attribute>
-        <Attribute name="Stealth">-6</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
       </Other>
     </Attribs>
   </Character>
