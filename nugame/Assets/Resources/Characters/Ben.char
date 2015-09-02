@@ -1,10 +1,45 @@
 <Characters>
-  <Character name="Mission Control">
+  <Character name="Tech God">
     <Name>Ben</Name>
     <Gender>M</Gender>
     <MainClass>Support</MainClass>
     <SubClass>Tech</SubClass>
     <History>Tech Mogul</History>
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">-2</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+1</Attribute>
+          <Attribute name="Two Handed">+1</Attribute>
+          <Attribute name="Dual Handed">+1</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+3</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+4</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
+    </Attribs>
+  </Character>
+  <Character name="Mission Control">
+    <Name>Ben</Name>
+    <Gender>M</Gender>
+    <MainClass>Support</MainClass>
+    <SubClass>Tech</SubClass>
+    <History>Hacker</History>
     <Attribs>
       <Combat>
         <Ranged>

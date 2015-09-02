@@ -40,7 +40,7 @@
 
   </SubClass>
 
-  <SubClass name="">
+  <SubClass name="Clown">
   <Attribs>
     <Combat>
       <Ranged>
@@ -71,7 +71,7 @@
   </Attribs>
   </SubClass>
 
-  <SubClass name="">
+  <SubClass name="Jesus Monkey Robot Overlord The Savior">
   <Attribs>
     <Combat>
       <Ranged>

@@ -13,6 +13,53 @@
   <!-- This defines a single level of an attribute. Anytime an attribute is missing
   any of the following info blocks, the two from the level below, or default will be
   assumed. -->
+  <Level name="-5">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="dis_rar">-2</buff>
+  </Level>
+
+  <Level name="-4">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="dis_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="dis_rar">-2</buff>
+  </Level>
+  <Level name="-3">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="-2">
+    <Title> Possible Threat </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="-1">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="0">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">0</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">0</buff>
+  </Level>
+
   <Level name="1">
     <!-- This is the title that is put at the top of the info card. -->
     <Title> Novice </Title>
@@ -92,6 +139,44 @@
 
   <Level name="10">
     <Title> Godlike </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+  <Level name="11">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="dis_rar">-2</buff>
+  </Level>
+
+  <Level name="12">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="dis_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="dis_rar">-2</buff>
+  </Level>
+  <Level name="13">
+    <Title> Decent </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="14">
+    <Title> Possible Threat </Title>
+    <!-- success -->
+    <buff name="dis_suc">+15</buff>
+    <!-- rarity -->
+    <buff name="dis_rar">+20</buff>
+  </Level>
+
+  <Level name="15">
+    <Title> Decent </Title>
     <!-- success -->
     <buff name="dis_suc">+15</buff>
     <!-- rarity -->

@@ -98,4 +98,92 @@
     <!-- Rarity -->
     <buff name="crf_rar">+15</buff>
   </Level>
+
+  <Level name="11">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+10</buff>
+  </Level>
+
+  <Level name="12">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="13">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+10</buff>
+  </Level>
+
+  <Level name="14">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="15">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+10</buff>
+  </Level>
+
+  <Level name="0">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="-1">
+    <Title> Newb </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+15</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+10</buff>
+  </Level>
+
+  <Level name="-2">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="-3">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="-4">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
+
+  <Level name="-5">
+    <Title> adequate </Title>
+    <!-- Success -->
+    <buff name="crf_suc">+20</buff>
+    <!-- Rarity -->
+    <buff name="crf_rar">+15</buff>
+  </Level>
 </Attribute>

@@ -98,4 +98,92 @@
     <!-- Speed -->
     <buff name="two_hnd_spd">-2</buff>
   </Level>
+
+  <Level name="11">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="12">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="13">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="14">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="15">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="0">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="-1">
+    <Title> Newb </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+15</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="-2">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="-3">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="-4">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
+
+  <Level name="-5">
+    <Title> adequate </Title>
+    <!-- Damage output -->
+    <buff name="two_hnd_dmg">+20</buff>
+    <!-- Speed -->
+    <buff name="two_hnd_spd">-2</buff>
+  </Level>
 </Attribute>
