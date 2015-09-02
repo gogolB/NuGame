@@ -158,7 +158,6 @@ public class Player_Character : MonoBehaviour
 					}
 				}
 				reader.Close();
-				
 			}
 			else
 			{
@@ -167,8 +166,8 @@ public class Player_Character : MonoBehaviour
 				Debug.Break();
 				#endif
 			}
-			yield return 0;
 		}
+		yield return null;
 	}
 
 	public void takeDamage(int amt)
