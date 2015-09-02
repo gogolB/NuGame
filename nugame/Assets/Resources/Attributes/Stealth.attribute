@@ -118,4 +118,114 @@
     <!-- Sound Dampening -->
     <buff name="stl_damp">+6</buff>
   </Level>
+
+  <Level name="11">
+    <Title> Newb </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+10</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+5</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+5</buff>
+  </Level>
+
+  <Level name="12">
+    <Title> adequate </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
+  </Level>
+
+  <Level name="13">
+    <Title> Newb </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+10</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+5</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+5</buff>
+  </Level>
+
+  <Level name="14">
+    <Title> adequate </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
+  </Level>
+
+  <Level name="15">
+    <Title> Newb </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+10</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+5</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+5</buff>
+  </Level>
+
+  <Level name="0">
+    <Title> adequate </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
+  </Level>
+
+  <Level name="-1">
+    <Title> Newb </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+10</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+5</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+5</buff>
+  </Level>
+
+  <Level name="-2">
+    <Title> adequate </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
+  </Level>
+
+  <Level name="-3">
+    <Title> adequate </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
+  </Level>
+
+  <Level name="-4">
+    <Title> adequate </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
+  </Level>
+
+  <Level name="-5">
+    <Title> adequate </Title>
+    <!-- Cloak Duration -->
+    <buff name="stl_dur">+12</buff>
+    <!-- Cloak Effectiveness -->
+    <buff name="stl_eff">+6</buff>
+    <!-- Sound Dampening -->
+    <buff name="stl_damp">+6</buff>
+  </Level>
 </Attribute>

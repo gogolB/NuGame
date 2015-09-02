@@ -1,0 +1,36 @@
+<Characters>
+  <Character name="The Vet">
+    <Name>George</Name>
+    <MainClass>Fighter</MainClass>
+    <SubClass>Soldier</SubClass>
+    <History>Space Marine</History>
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">+3</Attribute>
+          <Attribute name="Rifles">+4</Attribute>
+          <Attribute name="Handguns">+2</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+1</Attribute>
+          <Attribute name="Two Handed">+1</Attribute>
+          <Attribute name="Dual Handed">+1</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">-2</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">-1</Attribute>
+        <Attribute name="Technology">-1</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">-6</Attribute>
+      </Other>
+    </Attribs>
+  </Character>
+</Characters>

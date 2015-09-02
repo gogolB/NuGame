@@ -1,14 +1,9 @@
-<!--
-  These are the subclasses. Each subclass is only aloud to add 10 more points to
-  the overall attribute tree. This file is identfied by the prefix "SC_" for
-  subclasses and "Leader" for the leader Main class.
--->
 <SubClasses>
-  <!-- This is a sub class. These sub classes are only avaiable to to the leader
+  <!-- This is a sub class. These sub classes are only available to to the support
   main class.-->
-  <SubClass name="Business">
+  <SubClass name="Pilot">
     <!-- Here we set the ingame name for the player.-->
-    <Name> Business Tycoon </Name>
+    <Name> Ice Man </Name>
     <!-- Here we modify the all the attribute levels for the subclass. It follows
     the same structure as the MainClass..-->
     <Attribs>
@@ -42,11 +37,45 @@
     <!-- Here is all the info about this particular subclass. -->
     <Info lang="en">
     </Info>
+  </SubClass>
+
+ <SubClass name="Tech">
+    <Name> Dave </Name>
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">+1</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+1</Attribute>
+          <Attribute name="Two Handed">+1</Attribute>
+          <Attribute name="Dual Handed">+1</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+1</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+1</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
+    </Attribs>
+    <Info lang="en">
+    </Info>
 
   </SubClass>
 
-  <SubClass name="Military">
-    <Name> The General </Name>
+  <SubClass name="Jim">
+    <Name> Jim </Name>
     <Attribs>
       <Combat>
         <Ranged>
@@ -76,37 +105,3 @@
       </Other>
     </Attribs>
   </SubClass>
-
-  <SubClass name="Political">
-    <Name> Senator </Name>
-    <Attribs>
-      <Combat>
-        <Ranged>
-          <Attribute name="Heavy Weapons">+1</Attribute>
-          <Attribute name="Rifles">+1</Attribute>
-          <Attribute name="Handguns">+1</Attribute>
-        </Ranged>
-        <Melee>
-          <Attribute name="One Handed">+1</Attribute>
-          <Attribute name="Two Handed">+1</Attribute>
-          <Attribute name="Dual Handed">+1</Attribute>
-        </Melee>
-      </Combat>
-      <Science>
-        <Attribute name="Medicine">+1</Attribute>
-        <Attribute name="Discovery">+1</Attribute>
-      </Science>
-      <Engr>
-        <Attribute name="Crafting">+1</Attribute>
-        <Attribute name="Repair">+1</Attribute>
-        <Attribute name="Emplacement">+1</Attribute>
-        <Attribute name="Technology">+1</Attribute>
-      </Engr>
-      <Other>
-        <Attribute name="Piloting">+1</Attribute>
-        <Attribute name="Stealth">+1</Attribute>
-      </Other>
-    </Attribs>
-  </SubClass>
-
-</SubClasses>

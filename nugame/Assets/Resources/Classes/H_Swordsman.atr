@@ -1,0 +1,40 @@
+<Histories>
+  <History name="Space Ninja">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Trained in the art of Zero "G" No-Touch-Of-Death.</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
+    <Attribs>
+      <Combat>
+        <Ranged>
+          <Attribute name="Heavy Weapons">+1</Attribute>
+          <Attribute name="Rifles">+1</Attribute>
+          <Attribute name="Handguns">+1</Attribute>
+        </Ranged>
+        <Melee>
+          <Attribute name="One Handed">+1</Attribute>
+          <Attribute name="Two Handed">+1</Attribute>
+          <Attribute name="Dual Handed">+1</Attribute>
+        </Melee>
+      </Combat>
+      <Science>
+        <Attribute name="Medicine">+1</Attribute>
+        <Attribute name="Discovery">+1</Attribute>
+      </Science>
+      <Engr>
+        <Attribute name="Crafting">+1</Attribute>
+        <Attribute name="Repair">+1</Attribute>
+        <Attribute name="Emplacement">+1</Attribute>
+        <Attribute name="Technology">+1</Attribute>
+      </Engr>
+      <Other>
+        <Attribute name="Piloting">+1</Attribute>
+        <Attribute name="Stealth">+1</Attribute>
+      </Other>
+    </Attribs>
+
+    <!-- Here is the info about this particular history. -->
+    <Info lang="en">
+    </Info>
+  </History>
+</Histories>

@@ -1,16 +1,9 @@
-<!--
-  These are the subclasses. Each subclass is only aloud to add 10 more points to
-  the overall attribute tree. This file is identfied by the prefix "SC_" for
-  subclasses and "Leader" for the leader Main class.
--->
-<SubClasses>
-  <!-- This is a sub class. These sub classes are only avaiable to to the leader
-  main class.-->
-  <SubClass name="Business">
-    <!-- Here we set the ingame name for the player.-->
-    <Name> Business Tycoon </Name>
-    <!-- Here we modify the all the attribute levels for the subclass. It follows
-    the same structure as the MainClass..-->
+<Histories>
+  <History name="General">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Former  1/3 star general </Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
     <Attribs>
       <Combat>
         <Ranged>
@@ -39,14 +32,17 @@
         <Attribute name="Stealth">+1</Attribute>
       </Other>
     </Attribs>
-    <!-- Here is all the info about this particular subclass. -->
+
+    <!-- Here is the info about this particular history. -->
     <Info lang="en">
     </Info>
+  </History>
 
-  </SubClass>
-
-  <SubClass name="Military">
-    <Name> The General </Name>
+  <History name="Rebel">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Chief Financial Officer of Space Clowns Inc.</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
     <Attribs>
       <Combat>
         <Ranged>
@@ -75,10 +71,17 @@
         <Attribute name="Stealth">+1</Attribute>
       </Other>
     </Attribs>
-  </SubClass>
 
-  <SubClass name="Political">
-    <Name> Senator </Name>
+    <!-- Here is the info about this particular history. -->
+    <Info lang="en">
+    </Info>
+  </History>
+
+  <History name="LCPL">
+    <!-- Here is the ingame name that will be seen by the player. -->
+    <Name> Chief Financial Officer of Space Clowns Inc.</Name>
+    <!-- Here we will modify the levels in the attribute tree the same way as the
+    Main class did. -->
     <Attribs>
       <Combat>
         <Ranged>
@@ -107,6 +110,9 @@
         <Attribute name="Stealth">+1</Attribute>
       </Other>
     </Attribs>
-  </SubClass>
 
-</SubClasses>
+    <!-- Here is the info about this particular history. -->
+    <Info lang="en">
+    </Info>
+  </History>
+</Histories>
