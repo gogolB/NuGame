@@ -3,8 +3,8 @@ using System.Collections;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-public class NetworkManagerCustom : NetworkManager {
-
+public class NetworkManagerCustom : NetworkManager 
+{
 	public void StartupHost()
 	{
 		SetPort ();
@@ -26,6 +26,19 @@ public class NetworkManagerCustom : NetworkManager {
 		NetworkManager.singleton.networkPort = 7777;
 	}
 
+	public void StartupHost(int port)
+	{
+		NetworkManager.singleton.networkPort = port;
+		NetworkManager.singleton.StartHost ();
+	}
+
+	public void JoinGame(string ip, int port)
+	{
+		NetworkManager.singleton.networkAddress = ip;
+		NetworkManager.singleton.networkPort = port;
+		NetworkManager.singleton.StartClient ();
+	}
+
 	void OnLevelWasLoaded(int level){
 		if(level == 0) {
 			SetupMenuSceneButtons ();
@@ -39,6 +52,4 @@ public class NetworkManagerCustom : NetworkManager {
 		GameObject.Find ("ButtonJoinGame").GetComponent<Button> ().onClick.RemoveAllListeners ();
 		GameObject.Find ("ButtonJoinGame").GetComponent<Button> ().onClick.AddListener (JoinGame);
 	}
-
-
 }

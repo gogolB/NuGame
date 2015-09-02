@@ -69,6 +69,12 @@ public class Begin_JMatch : MonoBehaviour {
 			                       + d.GetComponent<InputField> ().text + "."
 			                       + e.GetComponent<InputField>().text), 
 			                       f.GetComponent<InputField>().text);*/
+			if(GameObject.FindObjectOfType<NetworkManagerCustom>() != null)
+				GameObject.FindObjectOfType<NetworkManagerCustom>().JoinGame((a.GetComponent<InputField> ().text + "."
+				                                                              + b.GetComponent<InputField> ().text + "."
+				                                                              + c.GetComponent<InputField> ().text + "."
+				                                                              + d.GetComponent<InputField> ().text), 
+				                                                             int.Parse(f.GetComponent<InputField>().text));
 		}
 	}
 

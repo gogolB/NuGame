@@ -35,5 +35,5 @@ echo "Attempting to build $project for Linux"
   -buildLinuxUniversalPlayer "$(pwd)/Build/linux/$project.exe" \
   -quit
 
-echo 'Logs from build'
+echo "Build log file"
 cat $(pwd)/unity.log

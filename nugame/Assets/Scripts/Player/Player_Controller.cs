@@ -82,4 +82,14 @@ public class Player_Controller : MonoBehaviour
 		meshTrans.eulerAngles = newAdjustedAngle;
 
 	}
+
+	public void fireBullet()
+	{
+		GameObject bullet = GameObject.FindObjectOfType<BulletPoolManager>().createNewBulletInstance();
+		bullet.transform.position = this.transform.position;
+		bullet.transform.position += meshTrans.forward + Vector3.up;
+		bullet.GetComponent<BulletController>().fwd = meshTrans.forward;
+
+		bullet.SetActive(true);
+	}
 }
