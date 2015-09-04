@@ -12,169 +12,164 @@
     <!-- Damage -->
     <buff name="Emp_dmg">+0</buff>
   </Level>
-  <!-- This defines a single level of an attribute. Anytime an attribute is missing
-  any of the following info blocks, the two from the level below, or default will be
-  assumed. -->
   <Level name="1">
-    <!-- This is the title that is put at the top of the info card. -->
     <Title> Novice </Title>
-    <!-- This is the text that follows at the bottom of the card. -->
     <Info lang="en">
-      You are brand new at using rifles. Probably have less experience than
-      a recruit. Very likely to blow two's self up. Should probably stay away from
-      friendlies when practicing with this weapon.
     </Info>
-    <!-- This is an example of a buff. This buff modifies the Success of a
-    heavy weapon and adds on 0% damage. The number is a percent!! -->
-    <buff name="Emp_suc">+0</buff>
+    <!-- Success -->
+    <buff name="Emp_suc">+3</buff>
+    <!-- Speed -->
+    <buff name="Emp_spd">+3</buff>
+    <!-- Damage -->
+    <buff name="Emp_dmg">+4</buff>
   </Level>
 
   <Level name="2">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">+7</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">+6</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+7</buff>
   </Level>
 
   <Level name="3">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+10</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+10</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+10</buff>
   </Level>
 
   <Level name="4">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">+13</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">+13</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+14</buff>
   </Level>
 
   <Level name="5">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+17</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+16</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+17</buff>
   </Level>
 
   <Level name="6">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">+20</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">+20</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+20</buff>
   </Level>
 
   <Level name="7">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+23</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+23</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+24</buff>
   </Level>
 
   <Level name="8">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">+27</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">+26</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+27</buff>
   </Level>
 
   <Level name="9">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+30</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+30</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+30</buff>
   </Level>
 
   <Level name="10">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+33</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+33</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+34</buff>
   </Level>
 
   <Level name="11">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">+37</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">+36</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+37</buff>
   </Level>
 
   <Level name="12">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+40</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+40</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+40</buff>
   </Level>
 
   <Level name="13">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">+43</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">+43</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+44</buff>
   </Level>
 
   <Level name="14">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+47</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+46</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+47</buff>
   </Level>
 
   <Level name="15">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">+50</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">+50</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">+50</buff>
   </Level>
 
   <Level name="0">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">+0</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">+0</buff>
     <!-- Damage -->
     <buff name="Emp_dmg">+0</buff>
   </Level>
@@ -182,49 +177,49 @@
   <Level name="-1">
     <Title> Newb </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+15</buff>
+    <buff name="Emp_suc">-3</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+10</buff>
+    <buff name="Emp_spd">-4</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">-3</buff>
   </Level>
 
   <Level name="-2">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">-7</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">-7</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">-6</buff>
   </Level>
 
   <Level name="-3">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">-10</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">-10</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">-10</buff>
   </Level>
   <Level name="-4">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">-14</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">-14</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">-14</buff>
   </Level>
 
   <Level name="-5">
     <Title> adequate </Title>
     <!-- Success -->
-    <buff name="Emp_suc">+20</buff>
+    <buff name="Emp_suc">-20</buff>
     <!-- speed -->
-    <buff name="Emp_spd">+15</buff>
+    <buff name="Emp_spd">-20</buff>
     <!-- Damage -->
-    <buff name="Emp_dmg">+0</buff>
+    <buff name="Emp_dmg">-20</buff>
   </Level>
 </Attribute>
