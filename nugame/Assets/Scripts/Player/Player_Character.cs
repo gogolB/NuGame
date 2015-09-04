@@ -158,17 +158,17 @@ public class Player_Character : MonoBehaviour
 					}
 				}
 				reader.Close();
-				
 			}
 			else
 			{
 				Debug.LogError("Could not find attribute file: " + filename);
 				#if UNITY_EDITOR
-				Debug.Break();
+					Debug.Break();
 				#endif
 			}
-			yield return 0;
+
 		}
+		yield return 0;
 	}
 
 	public void takeDamage(int amt)

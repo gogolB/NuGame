@@ -84,17 +84,11 @@ public class Character_Factory : MonoBehaviour
 				if(textReader.Name == "Character")
 				{
 					obj.GetComponent<Player_Character>().updateBuffs();
-					#if UNITY_EDITOR
-						Debug.Log("Done with Character");
-					obj.GetComponent<Player_Character>().printOutAttribs();
-					obj.GetComponent<Player_Character>().printOutBuffs();
-					#endif
 					break;
 				}
 			}
 		}
 		textReader.Close();
-
 		return obj;
 	}
 
@@ -108,7 +102,7 @@ public class Character_Factory : MonoBehaviour
 		if(reader.Name == "Character")
 		{
 			#if UNITY_EDITOR
-				Debug.Log("Character: " + reader.GetAttribute("name"));
+				//Debug.Log("Character: " + reader.GetAttribute("name"));
 			#endif
 		}
 		// Handle the Name Node.
@@ -118,7 +112,7 @@ public class Character_Factory : MonoBehaviour
 			obj.name = str;
 
 			#if UNITY_EDITOR
-				Debug.Log ("Name: " + str);
+				//Debug.Log ("Name: " + str);
 			#endif
 		}
 		// Handle the Main class stuff.
@@ -129,7 +123,7 @@ public class Character_Factory : MonoBehaviour
 			handleMainClass(str, obj.GetComponent<Player_Character>());
 
 			#if UNITY_EDITOR
-				Debug.Log ("MainClass: " + str);
+				//Debug.Log ("MainClass: " + str);
 			#endif
 		}
 		// Handle the SubClass Stuff.
@@ -140,7 +134,7 @@ public class Character_Factory : MonoBehaviour
 			handleSubClass(obj.GetComponent<Player_Persona>().MainClass , str, obj.GetComponent<Player_Character>());
 
 			#if UNITY_EDITOR
-				Debug.Log ("SubClass: " + str);
+				//Debug.Log ("SubClass: " + str);
 			#endif
 		}
 		// Handle the History Stuff.
@@ -151,7 +145,7 @@ public class Character_Factory : MonoBehaviour
 			handleHistory(obj.GetComponent<Player_Persona>().SubClass, str, obj.GetComponent<Player_Character>());
 
 			#if UNITY_EDITOR
-				Debug.Log ("History: " + str);
+				//Debug.Log ("History: " + str);
 			#endif
 		}
 		// Handle the attribute tree.
@@ -173,13 +167,13 @@ public class Character_Factory : MonoBehaviour
 	{
 		XmlTextReader reader = new XmlTextReader(Application.dataPath + "/Resources/Classes/Main_Class.atr");
 		#if UNITY_EDITOR
-			Debug.Log("Loading Base Class");
+			//Debug.Log("Loading Base Class");
 		#endif
 
 		loadBaseClass(reader, character);
 
 		#if UNITY_EDITOR
-			Debug.Log("Loading Class info.");
+			//Debug.Log("Loading Class info.");
 		#endif
 
 		skipToAttribute(reader, "Class", "name", mainClass);
@@ -222,7 +216,7 @@ public class Character_Factory : MonoBehaviour
 	private void handleSubClass(string mainClass, string subClass, Player_Character character)
 	{
 		#if UNITY_EDITOR
-			Debug.Log("Loading subclass info.");
+			//Debug.Log("Loading subclass info.");
 			if(!File.Exists(Application.dataPath + "/Resources/Classes/SC_" + mainClass +".atr"))
 			{
 				Debug.LogError("Could not find file: " + Application.dataPath + "/Resources/Classes/SC_" + mainClass +".atr");
@@ -255,7 +249,7 @@ public class Character_Factory : MonoBehaviour
 	private void handleHistory(string subClass, string history, Player_Character character)
 	{
 		#if UNITY_EDITOR
-			Debug.Log("Loading History Info.");
+			//Debug.Log("Loading History Info.");
 			if(!File.Exists(Application.dataPath + "/Resources/Classes/H_" + subClass +".atr"))
 			{
 				Debug.LogError("Could not find file: " + Application.dataPath + "/Resources/Classes/H_" + subClass +".atr");
