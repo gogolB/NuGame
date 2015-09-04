@@ -54,15 +54,8 @@ public class Player_Controller : MonoBehaviour
 		else
 			moveDirection.y = 0;
 
-		// Finally go ahead and move us. We need to move with the animation curve to prevent ice skating.
-		Animator animator = GetComponentInChildren<Animator>(); 
-		if (animator)
-		{
-			Vector3 newPosition = new Vector3();
-				newPosition.x += animator.GetFloat("MoveSpeedX") * Time.deltaTime; 
-				newPosition.z += animator.GetFloat("MoveSpeedZ") * Time.deltaTime; 
-			controller.Move(meshTrans.TransformDirection(newPosition));
-		}
+		this.controller.SimpleMove(moveDirection);
+
 	}
 
 	// Use to set the movement director. 
@@ -91,5 +84,15 @@ public class Player_Controller : MonoBehaviour
 		bullet.GetComponent<BulletController>().fwd = meshTrans.forward;
 
 		bullet.SetActive(true);
+	}
+
+	void OnAnimatorMove() {
+		Animator animator = GetComponentInChildren<Animator>();
+		if (animator) {
+			Vector3 newPosition = transform.position;
+			newPosition.y += animator.deltaPosition.y;
+			newPosition.x += animator.deltaPosition.x;
+			transform.position = newPosition;
+		}
 	}
 }

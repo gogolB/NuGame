@@ -20,18 +20,6 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: MoveSpeedZ
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: MoveSpeedX
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -865,7 +853,7 @@ AnimatorStateMachine:
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: 110791758}
-    m_Position: {x: 360, y: 132, z: 0}
+    m_Position: {x: 360, y: 120, z: 0}
   - serializedVersion: 1
     m_StateMachine: {fileID: 110708878}
     m_Position: {x: 360, y: 0, z: 0}
@@ -879,10 +867,10 @@ AnimatorStateMachine:
       first: {fileID: 110772628}
       second: []
     data:
-      first: {fileID: 110708878}
+      first: {fileID: 110791758}
       second: []
     data:
-      first: {fileID: 110791758}
+      first: {fileID: 110708878}
       second: []
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 48, y: 0, z: 0}

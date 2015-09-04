@@ -163,11 +163,12 @@ public class Player_Character : MonoBehaviour
 			{
 				Debug.LogError("Could not find attribute file: " + filename);
 				#if UNITY_EDITOR
-				Debug.Break();
+					Debug.Break();
 				#endif
 			}
+
 		}
-		yield return null;
+		yield return 0;
 	}
 
 	public void takeDamage(int amt)

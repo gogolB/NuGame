@@ -23,8 +23,8 @@ public class Player_Input : MonoBehaviour
 		if(!Input.GetMouseButton(2))
 			getRotationInput (); 
 
-		if(Input.GetMouseButtonDown(0))
-			controller.fireBullet();
+		if(Input.GetMouseButtonDown(0));
+			//controller.fireBullet();
 	}
 
 	private void getMovementInput()

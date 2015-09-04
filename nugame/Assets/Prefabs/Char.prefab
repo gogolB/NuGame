@@ -322,7 +322,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &401380
 Transform:
   m_ObjectHideFlags: 1
@@ -486,7 +486,7 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 106586}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: a1b3500bd95197845b6621c5138c983b, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 48a77c3edce54364f9786a61a5f95a23, type: 3}
   m_Controller: {fileID: 9100000, guid: 88020ad7c35f5df42a16f437d93989aa, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fafd094a4c4514c42b65bb0114ac8e9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angleOfIncidence: 45
+  angleOfIncidence: 60
   armLength: 15
   allowPlayerCameraRotation: 0
   mouseSensitivity: 5
@@ -609,7 +609,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 137850}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83018941a2bce6b4e8b99ca43163059a, type: 3}
   m_Name: 
