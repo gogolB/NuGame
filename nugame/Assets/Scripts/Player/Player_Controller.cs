@@ -1,8 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class Player_Controller : MonoBehaviour
 {
+	[Serializable]
+	public class CharacterSettings
+	{
+		public float MoveForward = 1.0f;
+		public float MoveBackward = 1.0f;
+		public float StrafeLeft = 1.0f;
+		public float StrafeRight = 1.0f;
+	}
 	// For Development only. only.
 	public enum Relative { mesh, camera, world};
 
@@ -19,10 +28,13 @@ public class Player_Controller : MonoBehaviour
 
 	private Transform cameraTrans;
 
+	public CharacterSettings settings;
+
 	void Start(){
 		controller = GetComponent<CharacterController>();
 		meshTrans = this.transform.FindChild ("Mesh").transform;
 		cameraTrans = this.transform.FindChild ("Camera").transform;
+		settings = new CharacterSettings();
 	}
 
 
@@ -54,8 +66,24 @@ public class Player_Controller : MonoBehaviour
 		else
 			moveDirection.y = 0;
 
-		this.controller.SimpleMove(moveDirection);
 
+		move();
+	}
+
+	public void move()
+	{
+		// Adjust the move speed.
+		if(moveDirection.z > 0)
+			moveDirection *= settings.MoveForward;
+		else if(moveDirection.z < 0)
+			moveDirection *= settings.MoveBackward;
+
+		if (moveDirection.x > 0)
+			moveDirection *= settings.StrafeRight;
+		else if(moveDirection.x < 0)
+			moveDirection *= settings.StrafeLeft;
+
+		this.controller.SimpleMove(moveDirection);
 	}
 
 	// Use to set the movement director. 
@@ -63,6 +91,21 @@ public class Player_Controller : MonoBehaviour
 	public void setMoveDir(Vector3 movDir)
 	{
 		this.moveDirection = movDir;
+
+		switch(rel)
+		{
+		case Relative.mesh:
+			movDir = meshTrans.TransformDirection(movDir);
+			break;
+		case Relative.camera:
+			movDir = cameraTrans.TransformDirection(movDir);
+			break;
+		default:
+		case Relative.world:
+			movDir = this.transform.TransformDirection(movDir);
+			break;
+		}
+
 		this.GetComponentInChildren<Animator>().SetFloat("Horizontal", movDir.x);
 		this.GetComponentInChildren<Animator>().SetFloat("Vertical", movDir.z);
 	}

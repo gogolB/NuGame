@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &106616
 GameObject:
   m_ObjectHideFlags: 1
@@ -268,7 +268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &179292
 GameObject:
   m_ObjectHideFlags: 1
@@ -470,10 +470,10 @@ Animator:
   m_GameObject: {fileID: 175254}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 48a77c3edce54364f9786a61a5f95a23, type: 3}
-  m_Controller: {fileID: 9100000, guid: b94306ee56b381a449fca3eb9d05d5cf, type: 2}
+  m_Controller: {fileID: 9100000, guid: 88020ad7c35f5df42a16f437d93989aa, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 0
@@ -598,7 +598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angleOfIncidence: 60
-  armLength: 15
+  armLength: 5
   allowPlayerCameraRotation: 0
   mouseSensitivity: 5
   groundRotation: 180
@@ -703,8 +703,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b79ab39e243f5a54e89289c99588c456, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rel: 0
+  rel: 1
   speed: 6
+  settings:
+    MoveForward: 1
+    MoveBackward: .5
+    StrafeLeft: .5
+    StrafeRight: .5
 --- !u!114 &11468220
 MonoBehaviour:
   m_ObjectHideFlags: 1
