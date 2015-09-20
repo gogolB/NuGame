@@ -5,11 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Play_Screen.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Character_Devel.unity
   - enabled: 0
     path: Assets/Scenes/networking_dev.unity
@@ -17,3 +17,5 @@ EditorBuildSettings:
     path: Assets/Scenes/networking_menu.unity
   - enabled: 0
     path: Assets/Scenes/networking_dev.unity
+  - enabled: 1
+    path: Assets/Gogol's PlayGround/Gogol's Level.unity
