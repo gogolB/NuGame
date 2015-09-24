@@ -7,6 +7,8 @@ public class Factory : MonoBehaviour {
 
 	public string bits;
 
+
+	//Arrays of possibilities for item's type/prefix/suffix/subtype/etc...
 	public string[] type_ind = {"Ranged", "Melee", "Armor", "Novelty", "Consumable"};
 	string[] pref_ind = {"Cool", "Great ", "Rusty ", "Slimy ", "Fantastic ", "Deathly ", "Overpowering ", "Corrupted ",
 		"Astonishing ", "Poison ", "Harrowing "};
@@ -21,32 +23,25 @@ public class Factory : MonoBehaviour {
 	string[] astype_ind = {"EVA", "Heavy", "Medium", "Light", "Cosmetic", "Unique"};
 	//string[] nstackable_ind = {"yes", "no"};
 	//string[] nstacksize_ind = {"1", "2", "3", "4"};
-	string[] cstype_ind = {"Ammo", "Thrown", "Placeable", "st effect", "consumable material"};
+	string[] cstype_ind = {"Ammo", "Thrown", "Placeable", "Status Effect", "Consumable Material"};
 	//string[] cstacksize_ind = {"1", "2", "3"};
+	
 
 
-	void Start()
-	{
-		long it = 3909;
-
-		string hart = getBit (it);
-		int hurt = getNum (hart);
-
-		string bitly = "0000000000000000000000000000000000000000000000000000000000000000";
-
-		(parseItem (getNum(bitly))).print();
-	}
-
-
+	//Once all details of item system known, will return GameObject, currently returns void
+	//Takes in item id, constructs "GameItem" with all components of the item,
+	//then creates item itself(still in progress)
 	public void/*GameObject*/ constructItem(long id)
 	{
-		GameItem itemized = parseItem (id);
-		//return makeItem (itemized);
+		GameItem itemized = parseItem (id); //construct GameItem
+		//return makeItem (itemized);       //create item GameObject in scene 
 	}
 
-	public /*GameObject*/ void makeItem(string itemized)
+	//Once all details of item system known, will return GameObject, currently returns void
+	//Uses GameItem to construct item as a GameObject in scene(still in progress)
+	public /*GameObject*/ void makeItem(GameItem itemized)
 	{
-		//return 
+	
 	}
 
 	// Use this for item construction
@@ -245,7 +240,7 @@ public class Factory : MonoBehaviour {
 
 	}
 
-	//Converts ulong into binary rep as a string
+	//Converts long into binary rep as a string
 	public string getBit(long num)
 	{
 		bits = Convert.ToString (num, 2);
@@ -259,6 +254,7 @@ public class Factory : MonoBehaviour {
 		return bits;
 	}
 
+	//Converts binary as a string to its base 10 numerical representation
 	public int getNum(string num)
 	{
 		int numb = Convert.ToInt32 (num, 2);
