@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Begin_JMatch : MonoBehaviour {
 
-	public GameObject a, b, c, d, e, f, g, h;
+	public GameObject a, b, c, d, e, f, g, h, i, j;
 	
 	public void verify()
 	{
@@ -55,20 +55,29 @@ public class Begin_JMatch : MonoBehaviour {
 				dontstart = true;
 			}
 		} 
+
 		else 
 		{
 			h.SetActive (true);
 			dontstart = true;
 		}
+
+		//Check name field
+		if (i.GetComponent<InputField> ().text == "") {
+			j.SetActive (true);
+			dontstart = true;
+		}
 		
 		if (!dontstart) {
 			Debug.Log ("START");
+			//NetworkManager.Connect takes in IP Address, Port, and Player Name 
 			/*NetworkManager.Connect((a.GetComponent<InputField> ().text + "."
 			                        + b.GetComponent<InputField> ().text + "."
 			                        + c.GetComponent<InputField> ().text + "."
 			                       + d.GetComponent<InputField> ().text + "."
 			                       + e.GetComponent<InputField>().text), 
-			                       f.GetComponent<InputField>().text);*/
+			                       f.GetComponent<InputField>().text,
+			                       i.GetComponent<InputField> ().text);*/
 		}
 	}
 

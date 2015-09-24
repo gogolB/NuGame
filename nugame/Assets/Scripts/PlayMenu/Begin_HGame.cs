@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Begin_HGame : MonoBehaviour {
 
-	public GameObject a, b, c, d, e, f;
+	public GameObject a, b, c, d, e, f, i, j;
 
 	public void verify()
 	{
@@ -17,18 +17,13 @@ public class Begin_HGame : MonoBehaviour {
 		Debug.Log (b.GetComponent<InputField> ().text);
 		Debug.Log (c.GetComponent<InputField> ().text);*/
 
-		//check name field
+		//check matchname field
 		if (a.GetComponent<InputField> ().text == "") {
 			d.SetActive(true);
 			dontstart = true;
 		}
 
 		//check player number field
-
-
-
-
-
 		if (isnum (b.GetComponent<InputField> ().text))
 		{
 			if (!(Convert.ToInt32 (b.GetComponent<InputField> ().text, 10) >= 2 &&
@@ -59,9 +54,16 @@ public class Begin_HGame : MonoBehaviour {
 			f.SetActive(true);
 		}
 
+		//Check name field
+		if (i.GetComponent<InputField> ().text == "") {
+			j.SetActive (true);
+			dontstart = true;
+		}
+
 		if (!dontstart) {
 			Debug.Log ("START");
-			//StartServer(a.GetComponent<InputField> ().text, b.GetComponent<InputField> ().text, c.GetComponent<InputField> ().text);
+			//StartServer takes in Match Name, # Players, Port, and Player Name
+			//StartServer(a.GetComponent<InputField> ().text, b.GetComponent<InputField> ().text, c.GetComponent<InputField> ().text, i.GetComponent<InputField> ().text);
 		}
 	}
 
